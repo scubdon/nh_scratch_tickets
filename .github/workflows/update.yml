@@ -10,7 +10,7 @@ on:
   schedule:
     - cron: "23 11 * * *"   # 11:23 UTC = 7:23 ET (6:23 in winter)
   push:
-    branches: [main]
+    branches: [main, "claude/**"]  # TEMP: test run
     paths-ignore:
       - "data/**"           # our own daily snapshot commits
   workflow_dispatch:
