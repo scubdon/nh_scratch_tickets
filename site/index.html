@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NH Scratch Ticket Odds</title>
+  <link rel="icon" href="data:," />
+  <meta name="description" content="Live, per-prize odds for every New Hampshire Lottery scratch ticket, computed daily from the lottery's own prizes-remaining data." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="head">
+    <div class="wrap">
+      <p class="kicker">Statistical abstract &middot; New Hampshire Lottery instant games</p>
+      <h1>Scratch ticket odds, as they stand today</h1>
+      <p class="asof" id="asof">Loading data&hellip;</p>
+      <p class="abstract">
+        The New Hampshire Lottery publishes, for every scratch game on sale, how many of each
+        prize were printed and how many are still unclaimed. The number printed on the ticket
+        &mdash; the odds of winning <em>anything</em> &mdash; is mostly made up of prizes equal to or
+        smaller than the ticket price. This page uses the lottery's own counts to estimate what a
+        ticket bought <em>today</em> is actually likely to return: the live odds of each prize, the
+        odds of clearing $100, $500 and $1,000, and the expected return on each dollar spent.
+      </p>
+      <dl class="summary" id="summary"></dl>
+    </div>
+    <nav class="tabs" aria-label="Sections">
+      <div class="wrap">
+        <button class="tab" data-view="table" aria-selected="true">Table 1. Games</button>
+        <button class="tab" data-view="figures" aria-selected="false">Figures</button>
+        <button class="tab" data-view="methods" aria-selected="false">Methods</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ TABLE ============ -->
+    <section id="view-table" class="view wrap">
+      <div class="controls">
+        <div class="ctl">
+          <span class="ctl-label">Ticket price</span>
+          <div class="seg" id="price-filter" role="group" aria-label="Ticket price"></div>
+        </div>
+        <div class="ctl grow">
+          <label class="ctl-label" for="search">Search</label>
+          <input id="search" type="search" placeholder="Name or game number" autocomplete="off" />
+        </div>
+        <label class="check">
+          <input type="checkbox" id="hide-no-top" />
+          Hide games whose top prize is gone
+        </label>
+      </div>
+
+      <p class="caption">
+        <strong>Table 1.</strong> Current scratch games, <span id="row-count">&mdash;</span>.
+        &ldquo;1 in N&rdquo; figures are live estimates for a ticket bought today; the figure beneath
+        each is the average amount spent on tickets between wins of that size. Return per $1 is the
+        expected prize money a ticket pays back per dollar, printed&nbsp;&rarr;&nbsp;now. Click a
+        column heading to sort, or a row for its full prize table.
+      </p>
+
+      <div class="table-scroll">
+        <table class="games" id="games">
+          <thead>
+            <tr>
+              <th class="c-game" data-sort="name" scope="col"><span class="h">Game</span></th>
+              <th class="num" data-sort="price" scope="col"><span class="h">Price</span></th>
+              <th class="num" data-sort="top" scope="col"><span class="h">Top prize</span><span class="sub">left / printed</span></th>
+              <th class="num" data-sort="unsold" scope="col"><span class="h">Tickets left</span><span class="sub">est. share</span></th>
+              <th class="num" data-sort="overall" scope="col"><span class="h">Any prize</span><span class="sub">printed</span></th>
+              <th class="num" data-sort="o100" scope="col"><span class="h">$100+</span><span class="sub">live</span></th>
+              <th class="num" data-sort="o500" scope="col"><span class="h">$500+</span><span class="sub">live</span></th>
+              <th class="num" data-sort="o1000" scope="col"><span class="h">$1,000+</span><span class="sub">live</span></th>
+              <th class="num" data-sort="ev" scope="col"><span class="h">Return per $1</span><span class="sub">printed &rarr; now</span></th>
+            </tr>
+          </thead>
+          <tbody id="games-body"></tbody>
+        </table>
+      </div>
+      <p class="status" id="status" hidden></p>
+    </section>
+
+    <!-- ============ FIGURES ============ -->
+    <section id="view-figures" class="view wrap" hidden>
+      <figure class="fig">
+        <figcaption>
+          <span class="fig-no">Figure 1.</span>
+          <span class="fig-title">Live odds of a single ticket winning at least a given amount.</span>
+          One point per game, grouped by ticket price. The horizontal axis is logarithmic: each
+          gridline is ten times longer odds than the one to its left.
+        </figcaption>
+        <div class="seg" id="fig1-threshold" role="group" aria-label="Prize threshold">
+          <button data-t="100" aria-pressed="true">$100+</button>
+          <button data-t="500" aria-pressed="false">$500+</button>
+          <button data-t="1000" aria-pressed="false">$1,000+</button>
+          <button data-t="10000" aria-pressed="false">$10,000+</button>
+        </div>
+        <div class="chart" id="fig1"></div>
+      </figure>
+
+      <figure class="fig">
+        <figcaption>
+          <span class="fig-no">Figure 2.</span>
+          <span class="fig-title">Expected return per dollar, as printed and as it stands now.</span>
+          Hollow marks are the return across the full print run; filled marks are the return on the
+          tickets still unsold, given the prizes still unclaimed. A shift left means the valuable
+          prizes have gone faster than the tickets. The dashed line at $1.00 is break-even.
+        </figcaption>
+        <div class="chart" id="fig2"></div>
+      </figure>
+
+      <figure class="fig">
+        <figcaption>
+          <span class="fig-no">Figure 3.</span>
+          <span class="fig-title">Where the prize money goes.</span>
+          All unclaimed prize money across current games, divided by the size of the individual prize.
+          Bars show the share of dollars; the right-hand column shows how many prizes that is.
+        </figcaption>
+        <div class="chart" id="fig3"></div>
+      </figure>
+
+      <figure class="fig">
+        <figcaption>
+          <span class="fig-no">Table 2.</span>
+          <span class="fig-title">What it takes to expect one top prize.</span>
+          For each game with a top prize still unclaimed: the number of tickets you would need to
+          buy, at today's live odds, to expect to win one, and what those tickets cost.
+        </figcaption>
+        <div class="table-scroll">
+          <table class="plain" id="jackpots">
+            <thead>
+              <tr>
+                <th scope="col">Game</th>
+                <th class="num" scope="col">Top prize</th>
+                <th class="num" scope="col">Left</th>
+                <th class="num" scope="col">Live odds</th>
+                <th class="num" scope="col">Cost to expect one</th>
+                <th class="num" scope="col">Years at one ticket a day</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </figure>
+    </section>
+
+    <!-- ============ METHODS ============ -->
+    <section id="view-methods" class="view wrap prose" hidden>
+      <h2>Data</h2>
+      <p>
+        Two sources are published by the New Hampshire Lottery and joined on game number: the
+        <a href="https://www.nhlottery.com/game-collection/in-store?filters=scratchGame">in-store
+        game collection</a>, which supplies each game's name, price, ticket image and page, and the
+        <a href="https://www.nhlottery.com/prizes/prizes-remaining">prizes remaining</a> report,
+        which lists every prize level of every game with the number printed and the number still
+        unclaimed. Both are re-read once a day and this page is rebuilt from them.
+      </p>
+
+      <h2>Estimating how many tickets are left</h2>
+      <p>
+        The lottery publishes each game's print run (&ldquo;tickets ordered&rdquo;) but not how many
+        have been sold, so the share still unsold is estimated from the prize counts:
+      </p>
+      <pre class="eq">tickets printed   = tickets ordered, as published
+share unsold      = &Sigma; prizes unclaimed &divide; &Sigma; prizes printed
+tickets remaining = tickets printed &times; share unsold</pre>
+      <p>
+        If a game's print run is missing, it is taken as
+        <code>overall odds &times; &Sigma; prizes printed</code>. Because the low prize levels
+        account for nearly all prizes, the share unsold is effectively the share of small prizes
+        not yet claimed, which tracks ticket sales closely. Printed odds for each level are
+        <code>tickets printed &divide; prizes printed</code>.
+      </p>
+
+      <h2>Live odds</h2>
+      <pre class="eq">live odds of a level      = tickets remaining &divide; that prize still unclaimed
+P(win at least $X)        = &Sigma; over levels with prize &ge; X of (unclaimed &divide; tickets remaining)
+average spend per $X+ win = ticket price &times; (1 &divide; P(win at least $X))</pre>
+      <p>
+        Odds are shown as &ldquo;1 in N&rdquo;, where N = 1 &divide; probability. A prize level whose
+        prizes are all claimed has no live odds; the lottery may keep selling the game regardless.
+      </p>
+
+      <h2>Expected return per dollar</h2>
+      <pre class="eq">printed return = &Sigma; (prize &times; prizes printed)   &divide; (tickets printed   &times; price)
+current return = &Sigma; (prize &times; prizes unclaimed) &divide; (tickets remaining &times; price)</pre>
+      <p>
+        A return of $0.65 means that, on average, each $1 spent on the game comes back as 65&cent; in
+        prizes. No game returns $1 or more; the difference is the lottery's revenue.
+      </p>
+
+      <h2>Limitations</h2>
+      <ul>
+        <li>All figures are estimates. They assume unsold tickets carry prizes in the same
+          proportion as the unclaimed pool, which the lottery does not guarantee.</li>
+        <li>&ldquo;Unclaimed&rdquo; is not the same as &ldquo;unsold&rdquo;: a winning ticket may have
+          been bought and not yet cashed, which makes the live odds look slightly better than they are.</li>
+        <li>Prizes paid as annuities or non-cash items are counted at their stated dollar value.</li>
+      </ul>
+
+      <h2>Downloads</h2>
+      <p>
+        Today's full table, one row per prize level with the derived figures:
+        <a href="data/prizes.csv" download>prizes.csv</a> &middot;
+        <a href="data.json">data.json</a>.
+      </p>
+
+      <h2>History</h2>
+      <p>
+        Each daily run also stores a snapshot of every game's prize table in the repository's
+        <code>data/history/</code> folder (one CSV per day), for anyone who wants to study how the
+        odds move over a game's life.
+      </p>
+
+      <p class="disclaimer">
+        Independent analysis of public data. Not affiliated with or endorsed by the New Hampshire
+        Lottery Commission. If gambling is causing you harm, call or text 1-800-GAMBLER.
+      </p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <span id="foot-asof"></span>
+      <span>Source: New Hampshire Lottery. Rebuilt daily.</span>
+    </div>
+  </footer>
+
+  <div class="tip" id="tip" role="tooltip"></div>
+  <script src="app.js"></script>
+</body>
+</html>
