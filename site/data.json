@@ -1,0 +1,5417 @@
+{
+ "generated_at": "2026-09-25T12:42:24+00:00",
+ "prizes_last_updated": "2026-09-25T03:07:05.324Z",
+ "source": {
+  "catalog": "https://www.nhlottery.com/api/v1/game/collection?identifier=in-store&platform=web&cmsPreview=false",
+  "prizes_remaining": "https://www.nhlottery.com/prizes/prizes-remaining"
+ },
+ "counts": {
+  "scratch_games_in_catalog": 96,
+  "analyzed": 59,
+  "skipped": [
+   "Money Puzzle*O*Rama (not on sale until 2026-09-28)"
+  ]
+ },
+ "games": [
+  {
+   "game_number": "1692",
+   "identifier": "3,000,000-Cash-Spectacular",
+   "name": "$3,000,000 Cash Spectacular",
+   "price": 30,
+   "overall_odds": 2.89,
+   "top_prize_display": "$3,000,000*",
+   "on_sale": "2026-03-23",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/6qnNM7MOnXQoCrc52MdJOA/f309783ec665e5af94abb7e8ab929a7c/fullart_3cs.gif",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/5aZQYb0LDLth5GiUtBNKiN/6fc227e8291634bd79df86f8f83df283/NH_1692__3_000_000_Cash_Spectacular_WEB_FINAL.png",
+   "page_url": "https://www.nhlottery.com/game/3,000,000-Cash-Spectacular",
+   "tickets_printed": 1494420,
+   "tickets_remaining": 799252,
+   "percent_unsold": 53.48,
+   "prize_money_printed": 40382720,
+   "prize_money_unclaimed": 21103040,
+   "ev_printed": 0.9007,
+   "ev_now": 0.8801,
+   "prizes": [
+    {
+     "prize": 3000000,
+     "total": 4,
+     "remaining": 2,
+     "odds_printed": 373605.0,
+     "odds_live": 399626.0
+    },
+    {
+     "prize": 50000,
+     "total": 8,
+     "remaining": 4,
+     "odds_printed": 186802.5,
+     "odds_live": 199813.0
+    },
+    {
+     "prize": 5000,
+     "total": 73,
+     "remaining": 40,
+     "odds_printed": 20471.51,
+     "odds_live": 19981.3
+    },
+    {
+     "prize": 1000,
+     "total": 502,
+     "remaining": 271,
+     "odds_printed": 2976.93,
+     "odds_live": 2949.27
+    },
+    {
+     "prize": 500,
+     "total": 6349,
+     "remaining": 3335,
+     "odds_printed": 235.38,
+     "odds_live": 239.66
+    },
+    {
+     "prize": 200,
+     "total": 12606,
+     "remaining": 6677,
+     "odds_printed": 118.55,
+     "odds_live": 119.7
+    },
+    {
+     "prize": 100,
+     "total": 49814,
+     "remaining": 26326,
+     "odds_printed": 30.0,
+     "odds_live": 30.36
+    },
+    {
+     "prize": 50,
+     "total": 99628,
+     "remaining": 53019,
+     "odds_printed": 15.0,
+     "odds_live": 15.07
+    },
+    {
+     "prize": 40,
+     "total": 99628,
+     "remaining": 52974,
+     "odds_printed": 15.0,
+     "odds_live": 15.09
+    },
+    {
+     "prize": 30,
+     "total": 249070,
+     "remaining": 134221,
+     "odds_printed": 6.0,
+     "odds_live": 5.95
+    }
+   ]
+  },
+  {
+   "game_number": "1651",
+   "identifier": "$100,-$250-or-$500-series-ii",
+   "name": "$100, $250 or $500 Series II",
+   "price": 25,
+   "overall_odds": 9.7,
+   "top_prize_display": "$500",
+   "on_sale": "2024-11-03",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/7H42jrxtX0oF4HvlyzYTsX/36b72a1f0f719f9294d8c92c90098cc0/_100_-_250-or-_500-series-ii-icon",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/40w7Jz6HynNwQSBLQn0xPO/0725ed8bcb44a4ac2fc737b076b1ad71/_100_-_250-or-_500-series-ii-preview-icon",
+   "page_url": "https://www.nhlottery.com/game/$100,-$250-or-$500-series-ii",
+   "tickets_printed": 2772480,
+   "tickets_remaining": 550578,
+   "percent_unsold": 19.86,
+   "prize_money_printed": 55331450,
+   "prize_money_unclaimed": 10912050,
+   "ev_printed": 0.7983,
+   "ev_now": 0.7928,
+   "prizes": [
+    {
+     "prize": 500,
+     "total": 46491,
+     "remaining": 9122,
+     "odds_printed": 59.63,
+     "odds_live": 60.36
+    },
+    {
+     "prize": 250,
+     "total": 54411,
+     "remaining": 10593,
+     "odds_printed": 50.95,
+     "odds_live": 51.98
+    },
+    {
+     "prize": 100,
+     "total": 184832,
+     "remaining": 37028,
+     "odds_printed": 15.0,
+     "odds_live": 14.87
+    }
+   ]
+  },
+  {
+   "game_number": "1658",
+   "identifier": "2-million-ultimate-granite-bonus",
+   "name": "$2,000,000 Ultimate Granite Bonus",
+   "price": 25,
+   "overall_odds": 3.08,
+   "top_prize_display": "$2,000,000*",
+   "on_sale": "2025-09-29",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/2OFXBSGtb0ycPeneUzMuQ2/c2a21c8620199e5bfa7ed8df2f7fb1fc/NH_1658__2_000_000_ULTIMATE_GRANITE_BONUS_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/1Z8hO8QpibrHTA4pYpXjz2/5d678dd9590c6ac3d41e3cedf1c01242/NH-1658__2_000_000_ULTIMATE_GRANITE_BONUS_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/2-million-ultimate-granite-bonus",
+   "tickets_printed": 3345870,
+   "tickets_remaining": 2139156,
+   "percent_unsold": 63.93,
+   "prize_money_printed": 66455345,
+   "prize_money_unclaimed": 41489875,
+   "ev_printed": 0.7945,
+   "ev_now": 0.7758,
+   "prizes": [
+    {
+     "prize": 2000000,
+     "total": 4,
+     "remaining": 2,
+     "odds_printed": 836467.5,
+     "odds_live": 1069578.0
+    },
+    {
+     "prize": 200000,
+     "total": 4,
+     "remaining": 3,
+     "odds_printed": 836467.5,
+     "odds_live": 713052.0
+    },
+    {
+     "prize": 25000,
+     "total": 20,
+     "remaining": 13,
+     "odds_printed": 167293.5,
+     "odds_live": 164550.46
+    },
+    {
+     "prize": 10000,
+     "total": 60,
+     "remaining": 38,
+     "odds_printed": 55764.5,
+     "odds_live": 56293.58
+    },
+    {
+     "prize": 5000,
+     "total": 96,
+     "remaining": 68,
+     "odds_printed": 34852.81,
+     "odds_live": 31458.18
+    },
+    {
+     "prize": 1000,
+     "total": 1200,
+     "remaining": 791,
+     "odds_printed": 2788.22,
+     "odds_live": 2704.37
+    },
+    {
+     "prize": 500,
+     "total": 13405,
+     "remaining": 8576,
+     "odds_printed": 249.6,
+     "odds_live": 249.44
+    },
+    {
+     "prize": 200,
+     "total": 13656,
+     "remaining": 8726,
+     "odds_printed": 245.01,
+     "odds_live": 245.15
+    },
+    {
+     "prize": 150,
+     "total": 11895,
+     "remaining": 7575,
+     "odds_printed": 281.28,
+     "odds_live": 282.4
+    },
+    {
+     "prize": 100,
+     "total": 152175,
+     "remaining": 96994,
+     "odds_printed": 21.99,
+     "odds_live": 22.05
+    },
+    {
+     "prize": 50,
+     "total": 195268,
+     "remaining": 124582,
+     "odds_printed": 17.13,
+     "odds_live": 17.17
+    },
+    {
+     "prize": 30,
+     "total": 250804,
+     "remaining": 160610,
+     "odds_printed": 13.34,
+     "odds_live": 13.32
+    },
+    {
+     "prize": 25,
+     "total": 446095,
+     "remaining": 285505,
+     "odds_printed": 7.5,
+     "odds_live": 7.49
+    }
+   ]
+  },
+  {
+   "game_number": "1621",
+   "identifier": "diamond-jubilee",
+   "name": "Diamond Jubilee",
+   "price": 25,
+   "overall_odds": 4.83,
+   "top_prize_display": "$2,000,000*",
+   "on_sale": "2024-03-04",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/7h4qnI2ivol6h00IbjZ5fS/07b64ba0b608536583985040d813ee7a/diamond-jubilee-icon",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/5UUoA2xGDErY1ImVT2IYBr/122e76191bde76460e7ca6ee35963fd3/diamond-jubilee-preview-icon",
+   "page_url": "https://www.nhlottery.com/game/diamond-jubilee",
+   "tickets_printed": 3699690,
+   "tickets_remaining": 925917,
+   "percent_unsold": 25.03,
+   "prize_money_printed": 73723540,
+   "prize_money_unclaimed": 16504180,
+   "ev_printed": 0.7971,
+   "ev_now": 0.713,
+   "prizes": [
+    {
+     "prize": 2000000,
+     "total": 4,
+     "remaining": 0,
+     "odds_printed": 924922.5,
+     "odds_live": null
+    },
+    {
+     "prize": 60000,
+     "total": 48,
+     "remaining": 13,
+     "odds_printed": 77076.88,
+     "odds_live": 71224.38
+    },
+    {
+     "prize": 5000,
+     "total": 141,
+     "remaining": 37,
+     "odds_printed": 26238.94,
+     "odds_live": 25024.78
+    },
+    {
+     "prize": 2000,
+     "total": 352,
+     "remaining": 89,
+     "odds_printed": 10510.48,
+     "odds_live": 10403.56
+    },
+    {
+     "prize": 500,
+     "total": 8644,
+     "remaining": 2145,
+     "odds_printed": 428.01,
+     "odds_live": 431.66
+    },
+    {
+     "prize": 300,
+     "total": 4243,
+     "remaining": 1048,
+     "odds_printed": 871.95,
+     "odds_live": 883.51
+    },
+    {
+     "prize": 120,
+     "total": 13146,
+     "remaining": 3241,
+     "odds_printed": 281.43,
+     "odds_live": 285.69
+    },
+    {
+     "prize": 100,
+     "total": 246646,
+     "remaining": 61741,
+     "odds_printed": 15.0,
+     "odds_live": 15.0
+    },
+    {
+     "prize": 60,
+     "total": 493292,
+     "remaining": 123521,
+     "odds_printed": 7.5,
+     "odds_live": 7.5
+    }
+   ]
+  },
+  {
+   "game_number": "1628",
+   "identifier": "$100-or-$200-series-iii",
+   "name": "$100 or $200 Series III",
+   "price": 20,
+   "overall_odds": 9.04,
+   "top_prize_display": "$200",
+   "on_sale": "2024-06-02",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/4edk9eFC3ZEKhGlSZgbiHj/33eaaf0b85988164e541e411aaa79633/_100-or-_200-series-iii-icon",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/3w5pfOBWOsUghqkV9a7Gcm/4e0e83b669e4ec67cdf50f896c7373f8/_100-or-_200-series-iii-preview-icon",
+   "page_url": "https://www.nhlottery.com/game/$100-or-$200-series-iii",
+   "tickets_printed": 1005840,
+   "tickets_remaining": 15922,
+   "percent_unsold": 1.58,
+   "prize_money_printed": 14887900,
+   "prize_money_unclaimed": 227300,
+   "ev_printed": 0.7401,
+   "ev_now": 0.7138,
+   "prizes": [
+    {
+     "prize": 200,
+     "total": 37568,
+     "remaining": 511,
+     "odds_printed": 26.77,
+     "odds_live": 31.16
+    },
+    {
+     "prize": 100,
+     "total": 73743,
+     "remaining": 1251,
+     "odds_printed": 13.64,
+     "odds_live": 12.73
+    }
+   ]
+  },
+  {
+   "game_number": "1657",
+   "identifier": "millionaire-7",
+   "name": "Millionaire 7",
+   "price": 20,
+   "overall_odds": 3.2,
+   "top_prize_display": "$1,000,000*",
+   "on_sale": "2025-06-02",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/3zyPTWUujgGacEpxVzAuF1/0ea1d0e7b6c8bc2f12a9422edcd58766/NH-1657_MILLIONAIRE_7_Detail.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/xG44gEyIDJQptYIAEAhWt/e7337f3ecfe94ade3c63d5a2005a890a/NH-1657_MILLIONAIRE_7_WEB_FINAL_v2.jpg",
+   "page_url": "https://www.nhlottery.com/game/millionaire-7",
+   "tickets_printed": 1944780,
+   "tickets_remaining": 856294,
+   "percent_unsold": 44.03,
+   "prize_money_printed": 28698280,
+   "prize_money_unclaimed": 12881640,
+   "ev_printed": 0.7378,
+   "ev_now": 0.7522,
+   "prizes": [
+    {
+     "prize": 1000000,
+     "total": 4,
+     "remaining": 2,
+     "odds_printed": 486195.0,
+     "odds_live": 428147.0
+    },
+    {
+     "prize": 100000,
+     "total": 4,
+     "remaining": 2,
+     "odds_printed": 486195.0,
+     "odds_live": 428147.0
+    },
+    {
+     "prize": 10000,
+     "total": 32,
+     "remaining": 14,
+     "odds_printed": 60774.38,
+     "odds_live": 61163.86
+    },
+    {
+     "prize": 4000,
+     "total": 96,
+     "remaining": 42,
+     "odds_printed": 20258.12,
+     "odds_live": 20387.95
+    },
+    {
+     "prize": 1000,
+     "total": 760,
+     "remaining": 340,
+     "odds_printed": 2558.92,
+     "odds_live": 2518.51
+    },
+    {
+     "prize": 500,
+     "total": 2431,
+     "remaining": 1062,
+     "odds_printed": 799.99,
+     "odds_live": 806.3
+    },
+    {
+     "prize": 400,
+     "total": 932,
+     "remaining": 412,
+     "odds_printed": 2086.67,
+     "odds_live": 2078.38
+    },
+    {
+     "prize": 200,
+     "total": 9011,
+     "remaining": 3951,
+     "odds_printed": 215.82,
+     "odds_live": 216.73
+    },
+    {
+     "prize": 100,
+     "total": 46485,
+     "remaining": 20414,
+     "odds_printed": 41.84,
+     "odds_live": 41.95
+    },
+    {
+     "prize": 50,
+     "total": 62532,
+     "remaining": 27255,
+     "odds_printed": 31.1,
+     "odds_live": 31.42
+    },
+    {
+     "prize": 30,
+     "total": 194528,
+     "remaining": 85525,
+     "odds_printed": 10.0,
+     "odds_live": 10.01
+    },
+    {
+     "prize": 20,
+     "total": 291642,
+     "remaining": 128887,
+     "odds_printed": 6.67,
+     "odds_live": 6.64
+    }
+   ]
+  },
+  {
+   "game_number": "1681",
+   "identifier": "new-hampshire-holiday-winnings",
+   "name": "New Hampshire Holiday Winnings",
+   "price": 20,
+   "overall_odds": 3.16,
+   "top_prize_display": "$1,000",
+   "on_sale": "2025-11-03",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/5PNxUvTnxnV8ADybd9RnH2/e69d2953eabe518159682f0defb6d944/NH-1681_NH_HOLIDAY_WINNINGS_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/1y6jW5uZckCYQqG7CzS2m7/143124b855f677434d656aad70aa45cc/NH-1681_NH_HOLIDAY_WINNINGS_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/new-hampshire-holiday-winnings",
+   "tickets_printed": 629940,
+   "tickets_remaining": 242832,
+   "percent_unsold": 38.55,
+   "prize_money_printed": 9321960,
+   "prize_money_unclaimed": 3524890,
+   "ev_printed": 0.7399,
+   "ev_now": 0.7258,
+   "prizes": [
+    {
+     "prize": 1000,
+     "total": 2315,
+     "remaining": 866,
+     "odds_printed": 272.11,
+     "odds_live": 280.41
+    },
+    {
+     "prize": 500,
+     "total": 539,
+     "remaining": 188,
+     "odds_printed": 1168.72,
+     "odds_live": 1291.66
+    },
+    {
+     "prize": 200,
+     "total": 3256,
+     "remaining": 1196,
+     "odds_printed": 193.47,
+     "odds_live": 203.04
+    },
+    {
+     "prize": 100,
+     "total": 14667,
+     "remaining": 5422,
+     "odds_printed": 42.95,
+     "odds_live": 44.79
+    },
+    {
+     "prize": 40,
+     "total": 20933,
+     "remaining": 7768,
+     "odds_printed": 30.09,
+     "odds_live": 31.26
+    },
+    {
+     "prize": 30,
+     "total": 63050,
+     "remaining": 24505,
+     "odds_printed": 9.99,
+     "odds_live": 9.91
+    },
+    {
+     "prize": 20,
+     "total": 94537,
+     "remaining": 36881,
+     "odds_printed": 6.66,
+     "odds_live": 6.58
+    }
+   ]
+  },
+  {
+   "game_number": "1687",
+   "identifier": "VIP-Bonus-Deluxe",
+   "name": "VIP Bonus Deluxe",
+   "price": 20,
+   "overall_odds": 3.18,
+   "top_prize_display": "$1,000,000*",
+   "on_sale": "2025-12-29",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/1QuJe2fq1NQc9wbEjNKEMn/2b89e7dec68c8dc7bc82edee3288386d/NH-1687-VIP-BONUS-DELUXE_FINAL.gif",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/1XEpK7yTniSAfVcNNRJVVd/a726c6ee9765c980bc35bc573967a933/NH_1687_VIP_BONUS_DELUXE_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/VIP-Bonus-Deluxe",
+   "tickets_printed": 1127730,
+   "tickets_remaining": 667432,
+   "percent_unsold": 59.18,
+   "prize_money_printed": 17777170,
+   "prize_money_unclaimed": 10090320,
+   "ev_printed": 0.7882,
+   "ev_now": 0.7559,
+   "prizes": [
+    {
+     "prize": 1000000,
+     "total": 4,
+     "remaining": 2,
+     "odds_printed": 281932.5,
+     "odds_live": 333716.0
+    },
+    {
+     "prize": 50000,
+     "total": 4,
+     "remaining": 2,
+     "odds_printed": 281932.5,
+     "odds_live": 333716.0
+    },
+    {
+     "prize": 5000,
+     "total": 20,
+     "remaining": 12,
+     "odds_printed": 56386.5,
+     "odds_live": 55619.33
+    },
+    {
+     "prize": 1000,
+     "total": 184,
+     "remaining": 112,
+     "odds_printed": 6128.97,
+     "odds_live": 5959.21
+    },
+    {
+     "prize": 500,
+     "total": 1862,
+     "remaining": 1080,
+     "odds_printed": 605.66,
+     "odds_live": 617.99
+    },
+    {
+     "prize": 400,
+     "total": 482,
+     "remaining": 279,
+     "odds_printed": 2339.69,
+     "odds_live": 2392.23
+    },
+    {
+     "prize": 200,
+     "total": 4202,
+     "remaining": 2463,
+     "odds_printed": 268.38,
+     "odds_live": 270.98
+    },
+    {
+     "prize": 100,
+     "total": 32860,
+     "remaining": 19143,
+     "odds_printed": 34.32,
+     "odds_live": 34.87
+    },
+    {
+     "prize": 50,
+     "total": 33042,
+     "remaining": 19302,
+     "odds_printed": 34.13,
+     "odds_live": 34.58
+    },
+    {
+     "prize": 30,
+     "total": 75265,
+     "remaining": 44566,
+     "odds_printed": 14.98,
+     "odds_live": 14.98
+    },
+    {
+     "prize": 20,
+     "total": 206646,
+     "remaining": 122887,
+     "odds_printed": 5.46,
+     "odds_live": 5.43
+    }
+   ]
+  },
+  {
+   "game_number": "1608",
+   "identifier": "$50-or-$100-series-v",
+   "name": "$50 or $100 Series V",
+   "price": 10,
+   "overall_odds": 9.3,
+   "top_prize_display": "$100",
+   "on_sale": "2023-10-29",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/3B9TyqSDeHgb7Cf2w8Gax0/e480c7c089ad950fd9e8f9951a86e819/_50-or-_100-series-v-icon",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/3sLRwX8Pr8iL4hoYAquXGL/04253d0edfa249cfa0c6d2d0cfcf957c/_50-or-_100-series-v-preview-icon",
+   "page_url": "https://www.nhlottery.com/game/$50-or-$100-series-v",
+   "tickets_printed": 1637950,
+   "tickets_remaining": 30505,
+   "percent_unsold": 1.86,
+   "prize_money_printed": 11877700,
+   "prize_money_unclaimed": 214250,
+   "ev_printed": 0.7252,
+   "ev_now": 0.7023,
+   "prizes": [
+    {
+     "prize": 100,
+     "total": 61435,
+     "remaining": 1005,
+     "odds_printed": 26.66,
+     "odds_live": 30.35
+    },
+    {
+     "prize": 50,
+     "total": 114684,
+     "remaining": 2275,
+     "odds_printed": 14.28,
+     "odds_live": 13.41
+    }
+   ]
+  },
+  {
+   "game_number": "1650",
+   "identifier": "$50-or-$100-series-vi",
+   "name": "$50 or $100 Series VI",
+   "price": 10,
+   "overall_odds": 9.3,
+   "top_prize_display": "$100",
+   "on_sale": "2024-11-03",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/6bXAWTr4OXgb2rNOiVN4yB/e41fe842a9388e3a6b4056741671c44b/_50-or-_100-series-vi-icon",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/4kKa3lxpSdrAyRct3MZSTn/19d6bd52cad9a54b6538996669f95349/_50-or-_100-series-vi-preview-icon",
+   "page_url": "https://www.nhlottery.com/game/$50-or-$100-series-vi",
+   "tickets_printed": 756000,
+   "tickets_remaining": 22496,
+   "percent_unsold": 2.98,
+   "prize_money_printed": 5482600,
+   "prize_money_unclaimed": 157900,
+   "ev_printed": 0.7252,
+   "ev_now": 0.7019,
+   "prizes": [
+    {
+     "prize": 100,
+     "total": 28360,
+     "remaining": 739,
+     "odds_printed": 26.66,
+     "odds_live": 30.44
+    },
+    {
+     "prize": 50,
+     "total": 52932,
+     "remaining": 1680,
+     "odds_printed": 14.28,
+     "odds_live": 13.39
+    }
+   ]
+  },
+  {
+   "game_number": "1624",
+   "identifier": "$500,000-fortunes-series-iv",
+   "name": "$500,000 Fortunes Series IV",
+   "price": 10,
+   "overall_odds": 3.57,
+   "top_prize_display": "$500,000",
+   "on_sale": "2024-04-01",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/21uvMhczBsLWIMwnw7EYei/0ebaf2f6fc857cd8d686bd1e9a604b28/_500_000-fortunes-series-iv-icon",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/Z3AT5HKqWlywMlMXBKptr/c316f7ee8fe1397ceef2055ab9b3a224/_500_000-fortunes-series-iv-preview-icon",
+   "page_url": "https://www.nhlottery.com/game/$500,000-fortunes-series-iv",
+   "tickets_printed": 5137150,
+   "tickets_remaining": 2186206,
+   "percent_unsold": 42.56,
+   "prize_money_printed": 37211175,
+   "prize_money_unclaimed": 16102365,
+   "ev_printed": 0.7244,
+   "ev_now": 0.7365,
+   "prizes": [
+    {
+     "prize": 500000,
+     "total": 5,
+     "remaining": 3,
+     "odds_printed": 1027430.0,
+     "odds_live": 728735.33
+    },
+    {
+     "prize": 50000,
+     "total": 8,
+     "remaining": 3,
+     "odds_printed": 642143.75,
+     "odds_live": 728735.33
+    },
+    {
+     "prize": 10000,
+     "total": 45,
+     "remaining": 18,
+     "odds_printed": 114158.89,
+     "odds_live": 121455.89
+    },
+    {
+     "prize": 1000,
+     "total": 2264,
+     "remaining": 956,
+     "odds_printed": 2269.06,
+     "odds_live": 2286.83
+    },
+    {
+     "prize": 500,
+     "total": 4108,
+     "remaining": 1713,
+     "odds_printed": 1250.52,
+     "odds_live": 1276.24
+    },
+    {
+     "prize": 200,
+     "total": 2564,
+     "remaining": 1061,
+     "odds_printed": 2003.57,
+     "odds_live": 2060.51
+    },
+    {
+     "prize": 150,
+     "total": 5128,
+     "remaining": 2103,
+     "odds_printed": 1001.78,
+     "odds_live": 1039.57
+    },
+    {
+     "prize": 100,
+     "total": 64319,
+     "remaining": 26759,
+     "odds_printed": 79.87,
+     "odds_live": 81.7
+    },
+    {
+     "prize": 50,
+     "total": 51227,
+     "remaining": 21300,
+     "odds_printed": 100.28,
+     "odds_live": 102.64
+    },
+    {
+     "prize": 25,
+     "total": 51516,
+     "remaining": 21972,
+     "odds_printed": 99.72,
+     "odds_live": 99.5
+    },
+    {
+     "prize": 20,
+     "total": 385068,
+     "remaining": 161155,
+     "odds_printed": 13.34,
+     "odds_live": 13.57
+    },
+    {
+     "prize": 15,
+     "total": 308325,
+     "remaining": 132271,
+     "odds_printed": 16.66,
+     "odds_live": 16.53
+    },
+    {
+     "prize": 10,
+     "total": 565379,
+     "remaining": 243485,
+     "odds_printed": 9.09,
+     "odds_live": 8.98
+    }
+   ]
+  },
+  {
+   "game_number": "1662",
+   "identifier": "24k-gold",
+   "name": "24K Gold",
+   "price": 10,
+   "overall_odds": 3.54,
+   "top_prize_display": "$240,000",
+   "on_sale": "2025-03-31",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/3ncCnbxvMAnsNxygSoPxte/2edfffbe114a82dfce986faaaed956a6/NH-1662-24K-GOLD_Detail.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/1dIXGEfz1ceYT7Z5xpyD6Z/2d1ef1f336386ab97d8393a0de35c840/NH-1662-24K-GOLD_230x130.jpg",
+   "page_url": "https://www.nhlottery.com/game/24k-gold",
+   "tickets_printed": 1447750,
+   "tickets_remaining": 280097,
+   "percent_unsold": 19.35,
+   "prize_money_printed": 10497175,
+   "prize_money_unclaimed": 2014195,
+   "ev_printed": 0.7251,
+   "ev_now": 0.7191,
+   "prizes": [
+    {
+     "prize": 240000,
+     "total": 4,
+     "remaining": 1,
+     "odds_printed": 361937.5,
+     "odds_live": 280097.0
+    },
+    {
+     "prize": 2400,
+     "total": 60,
+     "remaining": 11,
+     "odds_printed": 24129.17,
+     "odds_live": 25463.36
+    },
+    {
+     "prize": 1000,
+     "total": 244,
+     "remaining": 49,
+     "odds_printed": 5933.4,
+     "odds_live": 5716.27
+    },
+    {
+     "prize": 500,
+     "total": 366,
+     "remaining": 57,
+     "odds_printed": 3955.6,
+     "odds_live": 4913.98
+    },
+    {
+     "prize": 240,
+     "total": 7510,
+     "remaining": 1330,
+     "odds_printed": 192.78,
+     "odds_live": 210.6
+    },
+    {
+     "prize": 100,
+     "total": 10875,
+     "remaining": 1871,
+     "odds_printed": 133.13,
+     "odds_live": 149.7
+    },
+    {
+     "prize": 50,
+     "total": 14366,
+     "remaining": 2511,
+     "odds_printed": 100.78,
+     "odds_live": 111.55
+    },
+    {
+     "prize": 25,
+     "total": 34798,
+     "remaining": 6664,
+     "odds_printed": 41.6,
+     "odds_live": 42.03
+    },
+    {
+     "prize": 20,
+     "total": 36181,
+     "remaining": 6449,
+     "odds_printed": 40.01,
+     "odds_live": 43.43
+    },
+    {
+     "prize": 15,
+     "total": 144883,
+     "remaining": 28431,
+     "odds_printed": 9.99,
+     "odds_live": 9.85
+    },
+    {
+     "prize": 10,
+     "total": 159116,
+     "remaining": 31640,
+     "odds_printed": 9.1,
+     "odds_live": 8.85
+    }
+   ]
+  },
+  {
+   "game_number": "1669",
+   "identifier": "Aces-High",
+   "name": "Aces High",
+   "price": 10,
+   "overall_odds": 3.46,
+   "top_prize_display": "$200,000",
+   "on_sale": "2025-06-30",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/1NNxyvJFUInChA01f1I4vW/8b4646eb4231b127b72eb39ce2895b61/NH-_1669_ACES_HIGH_Detail.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/6kMZ13B1KC0crKh5DgrxRz/e69ae0347ec6911841c4cf3e4deb7e3c/NH-1669_ACES_HIGH_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Aces-High",
+   "tickets_printed": 1227250,
+   "tickets_remaining": 427182,
+   "percent_unsold": 34.81,
+   "prize_money_printed": 8875225,
+   "prize_money_unclaimed": 2971110,
+   "ev_printed": 0.7232,
+   "ev_now": 0.6955,
+   "prizes": [
+    {
+     "prize": 200000,
+     "total": 4,
+     "remaining": 1,
+     "odds_printed": 306812.5,
+     "odds_live": 427182.0
+    },
+    {
+     "prize": 2000,
+     "total": 92,
+     "remaining": 29,
+     "odds_printed": 13339.67,
+     "odds_live": 14730.41
+    },
+    {
+     "prize": 1000,
+     "total": 264,
+     "remaining": 94,
+     "odds_printed": 4648.67,
+     "odds_live": 4544.49
+    },
+    {
+     "prize": 500,
+     "total": 753,
+     "remaining": 261,
+     "odds_printed": 1629.81,
+     "odds_live": 1636.71
+    },
+    {
+     "prize": 200,
+     "total": 1343,
+     "remaining": 444,
+     "odds_printed": 913.81,
+     "odds_live": 962.12
+    },
+    {
+     "prize": 100,
+     "total": 13547,
+     "remaining": 4501,
+     "odds_printed": 90.59,
+     "odds_live": 94.91
+    },
+    {
+     "prize": 50,
+     "total": 15297,
+     "remaining": 5077,
+     "odds_printed": 80.23,
+     "odds_live": 84.14
+    },
+    {
+     "prize": 30,
+     "total": 35270,
+     "remaining": 12157,
+     "odds_printed": 34.8,
+     "odds_live": 35.14
+    },
+    {
+     "prize": 20,
+     "total": 30704,
+     "remaining": 10670,
+     "odds_printed": 39.97,
+     "odds_live": 40.04
+    },
+    {
+     "prize": 15,
+     "total": 122729,
+     "remaining": 42916,
+     "odds_printed": 10.0,
+     "odds_live": 9.95
+    },
+    {
+     "prize": 10,
+     "total": 134946,
+     "remaining": 47401,
+     "odds_printed": 9.09,
+     "odds_live": 9.01
+    }
+   ]
+  },
+  {
+   "game_number": "1693",
+   "identifier": "Coal-9",
+   "name": "Coal 9",
+   "price": 10,
+   "overall_odds": 3.42,
+   "top_prize_display": "$200,000",
+   "on_sale": "2026-03-23",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/70mWi0sqNpwBayisE63ofi/86ce062e26ea89195d94a2224a3fdc43/NH_1693_Coal_9_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/6J7CGicVWtdvzshCSQ1Cmf/4412246e4673ba69c6258b115c5dc3fc/NH_1693_Coal_9_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Coal-9",
+   "tickets_printed": 1081350,
+   "tickets_remaining": 516228,
+   "percent_unsold": 47.74,
+   "prize_money_printed": 7846275,
+   "prize_money_unclaimed": 3551170,
+   "ev_printed": 0.7256,
+   "ev_now": 0.6879,
+   "prizes": [
+    {
+     "prize": 200000,
+     "total": 4,
+     "remaining": 1,
+     "odds_printed": 270337.5,
+     "odds_live": 516228.0
+    },
+    {
+     "prize": 20000,
+     "total": 4,
+     "remaining": 2,
+     "odds_printed": 270337.5,
+     "odds_live": 258114.0
+    },
+    {
+     "prize": 1000,
+     "total": 268,
+     "remaining": 133,
+     "odds_printed": 4034.89,
+     "odds_live": 3881.41
+    },
+    {
+     "prize": 500,
+     "total": 646,
+     "remaining": 298,
+     "odds_printed": 1673.92,
+     "odds_live": 1732.31
+    },
+    {
+     "prize": 400,
+     "total": 271,
+     "remaining": 119,
+     "odds_printed": 3990.22,
+     "odds_live": 4338.05
+    },
+    {
+     "prize": 250,
+     "total": 825,
+     "remaining": 386,
+     "odds_printed": 1310.73,
+     "odds_live": 1337.38
+    },
+    {
+     "prize": 100,
+     "total": 13104,
+     "remaining": 6134,
+     "odds_printed": 82.52,
+     "odds_live": 84.16
+    },
+    {
+     "prize": 50,
+     "total": 13227,
+     "remaining": 6313,
+     "odds_printed": 81.75,
+     "odds_live": 81.77
+    },
+    {
+     "prize": 25,
+     "total": 12166,
+     "remaining": 5706,
+     "odds_printed": 88.88,
+     "odds_live": 90.47
+    },
+    {
+     "prize": 20,
+     "total": 59467,
+     "remaining": 28881,
+     "odds_printed": 18.18,
+     "odds_live": 17.87
+    },
+    {
+     "prize": 15,
+     "total": 86551,
+     "remaining": 41150,
+     "odds_printed": 12.49,
+     "odds_live": 12.55
+    },
+    {
+     "prize": 10,
+     "total": 129712,
+     "remaining": 61850,
+     "odds_printed": 8.34,
+     "odds_live": 8.35
+    }
+   ]
+  },
+  {
+   "game_number": "1699",
+   "identifier": "Franklins-Fortunes",
+   "name": "Franklin's Fortunes",
+   "price": 10,
+   "overall_odds": 3.62,
+   "top_prize_display": "$200,000",
+   "on_sale": "2026-06-15",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/3nZrR66970wYfcdmSD9IWO/7dd31e27eaa6ad111e1a8350acd5e928/NH_1699_Franklin-s_Fortunes_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/283y1hb1FOrN5kqGfvhM7d/042aa3d0c65df0c72032f095d9f9c86b/NH_1699_Franklin-s_Fortunes_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Franklins-Fortunes",
+   "tickets_printed": 1125850,
+   "tickets_remaining": 710849,
+   "percent_unsold": 63.14,
+   "prize_money_printed": 8132800,
+   "prize_money_unclaimed": 4992035,
+   "ev_printed": 0.7224,
+   "ev_now": 0.7023,
+   "prizes": [
+    {
+     "prize": 200000,
+     "total": 4,
+     "remaining": 2,
+     "odds_printed": 281462.5,
+     "odds_live": 355424.5
+    },
+    {
+     "prize": 10000,
+     "total": 8,
+     "remaining": 5,
+     "odds_printed": 140731.25,
+     "odds_live": 142169.8
+    },
+    {
+     "prize": 1000,
+     "total": 161,
+     "remaining": 103,
+     "odds_printed": 6992.86,
+     "odds_live": 6901.45
+    },
+    {
+     "prize": 500,
+     "total": 1029,
+     "remaining": 620,
+     "odds_printed": 1094.12,
+     "odds_live": 1146.53
+    },
+    {
+     "prize": 200,
+     "total": 1317,
+     "remaining": 822,
+     "odds_printed": 854.86,
+     "odds_live": 864.78
+    },
+    {
+     "prize": 100,
+     "total": 15503,
+     "remaining": 9616,
+     "odds_printed": 72.62,
+     "odds_live": 73.92
+    },
+    {
+     "prize": 50,
+     "total": 10171,
+     "remaining": 6305,
+     "odds_printed": 110.69,
+     "odds_live": 112.74
+    },
+    {
+     "prize": 25,
+     "total": 12583,
+     "remaining": 7965,
+     "odds_printed": 89.47,
+     "odds_live": 89.25
+    },
+    {
+     "prize": 20,
+     "total": 90070,
+     "remaining": 56542,
+     "odds_printed": 12.5,
+     "odds_live": 12.57
+    },
+    {
+     "prize": 15,
+     "total": 67551,
+     "remaining": 42828,
+     "odds_printed": 16.67,
+     "odds_live": 16.6
+    },
+    {
+     "prize": 10,
+     "total": 112581,
+     "remaining": 71540,
+     "odds_printed": 10.0,
+     "odds_live": 9.94
+    }
+   ]
+  },
+  {
+   "game_number": "1680",
+   "identifier": "holiday-magic",
+   "name": "Holiday Magic",
+   "price": 10,
+   "overall_odds": 3.57,
+   "top_prize_display": "$500",
+   "on_sale": "2025-11-03",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/3Zo9L8HFaEP78nmH5qI9GA/fd262b798d13ce2390ed3a75b60c334e/NH1680_HOLIDAY_MAGIC_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/6djqo2xN6KMcM1svuA7PGV/d71cca8c93b85df109ce2d732c2f0723/NH1680_HOLIDAY_MAGIC_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/holiday-magic",
+   "tickets_printed": 629950,
+   "tickets_remaining": 40367,
+   "percent_unsold": 6.41,
+   "prize_money_printed": 4566355,
+   "prize_money_unclaimed": 242795,
+   "ev_printed": 0.7249,
+   "ev_now": 0.6015,
+   "prizes": [
+    {
+     "prize": 500,
+     "total": 2623,
+     "remaining": 102,
+     "odds_printed": 240.16,
+     "odds_live": 395.75
+    },
+    {
+     "prize": 100,
+     "total": 5994,
+     "remaining": 268,
+     "odds_printed": 105.1,
+     "odds_live": 150.62
+    },
+    {
+     "prize": 50,
+     "total": 5543,
+     "remaining": 254,
+     "odds_printed": 113.65,
+     "odds_live": 158.93
+    },
+    {
+     "prize": 30,
+     "total": 14182,
+     "remaining": 763,
+     "odds_printed": 44.42,
+     "odds_live": 52.91
+    },
+    {
+     "prize": 20,
+     "total": 15716,
+     "remaining": 959,
+     "odds_printed": 40.08,
+     "odds_live": 42.09
+    },
+    {
+     "prize": 15,
+     "total": 63075,
+     "remaining": 4133,
+     "odds_printed": 9.99,
+     "odds_live": 9.77
+    },
+    {
+     "prize": 10,
+     "total": 69240,
+     "remaining": 4823,
+     "odds_printed": 9.1,
+     "odds_live": 8.37
+    }
+   ]
+  },
+  {
+   "game_number": "1673",
+   "identifier": "jurassic-park",
+   "name": "JURASSIC PARK®",
+   "price": 10,
+   "overall_odds": 3.55,
+   "top_prize_display": "$200,000",
+   "on_sale": "2025-08-28",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/5pjreDt5rdhGGgAC94YYXZ/e51969b0d9ce77d41881b372a99dfd20/NH1673_JURASSIC_PARK_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/7aueBXlYJRkLrpJaD89ned/cba76f9aa6c0c9b9fba0249daab22971/NH1673_JURASSIC_PARK_WEB_FINAL.png",
+   "page_url": "https://www.nhlottery.com/game/jurassic-park",
+   "tickets_printed": 1002150,
+   "tickets_remaining": 59569,
+   "percent_unsold": 5.94,
+   "prize_money_printed": 7222260,
+   "prize_money_unclaimed": 349735,
+   "ev_printed": 0.7207,
+   "ev_now": 0.5871,
+   "prizes": [
+    {
+     "prize": 200000,
+     "total": 4,
+     "remaining": 0,
+     "odds_printed": 250537.5,
+     "odds_live": null
+    },
+    {
+     "prize": 5000,
+     "total": 29,
+     "remaining": 2,
+     "odds_printed": 34556.9,
+     "odds_live": 29784.5
+    },
+    {
+     "prize": 1000,
+     "total": 275,
+     "remaining": 21,
+     "odds_printed": 3644.18,
+     "odds_live": 2836.62
+    },
+    {
+     "prize": 500,
+     "total": 645,
+     "remaining": 25,
+     "odds_printed": 1553.72,
+     "odds_live": 2382.76
+    },
+    {
+     "prize": 200,
+     "total": 1945,
+     "remaining": 85,
+     "odds_printed": 515.24,
+     "odds_live": 700.81
+    },
+    {
+     "prize": 100,
+     "total": 8813,
+     "remaining": 387,
+     "odds_printed": 113.71,
+     "odds_live": 153.93
+    },
+    {
+     "prize": 40,
+     "total": 30077,
+     "remaining": 1406,
+     "odds_printed": 33.32,
+     "odds_live": 42.37
+    },
+    {
+     "prize": 20,
+     "total": 40129,
+     "remaining": 2165,
+     "odds_printed": 24.97,
+     "odds_live": 27.51
+    },
+    {
+     "prize": 15,
+     "total": 80038,
+     "remaining": 4823,
+     "odds_printed": 12.52,
+     "odds_live": 12.35
+    },
+    {
+     "prize": 10,
+     "total": 120323,
+     "remaining": 7865,
+     "odds_printed": 8.33,
+     "odds_live": 7.57
+    }
+   ]
+  },
+  {
+   "game_number": "1702",
+   "identifier": "Money-Madness-Extra-Play",
+   "name": "Money Madness Extra Play",
+   "price": 10,
+   "overall_odds": 3.44,
+   "top_prize_display": "$200,000",
+   "on_sale": "2026-07-27",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/6BSxm2Xv67SLKFuRqXtNC1/0b43c24e19547141a2a8c066984ab31c/NH_1702_MONEY_MADNESS_EXTRA_PLAY_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/7yDMYxm4ZnSybNTV28eG4A/5907a0fca283b4e300a6808d5d6e789e/NH_1702_MONEY_MADNESS_EXTRA_PLAY_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Money-Madness-Extra-Play",
+   "tickets_printed": 1131800,
+   "tickets_remaining": 848123,
+   "percent_unsold": 74.94,
+   "prize_money_printed": 8220530,
+   "prize_money_unclaimed": 6144180,
+   "ev_printed": 0.7263,
+   "ev_now": 0.7244,
+   "prizes": [
+    {
+     "prize": 200000,
+     "total": 4,
+     "remaining": 3,
+     "odds_printed": 282950.0,
+     "odds_live": 282707.67
+    },
+    {
+     "prize": 10000,
+     "total": 12,
+     "remaining": 9,
+     "odds_printed": 94316.67,
+     "odds_live": 94235.89
+    },
+    {
+     "prize": 1000,
+     "total": 242,
+     "remaining": 191,
+     "odds_printed": 4676.86,
+     "odds_live": 4440.43
+    },
+    {
+     "prize": 500,
+     "total": 882,
+     "remaining": 648,
+     "odds_printed": 1283.22,
+     "odds_live": 1308.83
+    },
+    {
+     "prize": 200,
+     "total": 2937,
+     "remaining": 2167,
+     "odds_printed": 385.36,
+     "odds_live": 391.38
+    },
+    {
+     "prize": 100,
+     "total": 9860,
+     "remaining": 7314,
+     "odds_printed": 114.79,
+     "odds_live": 115.96
+    },
+    {
+     "prize": 50,
+     "total": 12228,
+     "remaining": 9050,
+     "odds_printed": 92.56,
+     "odds_live": 93.72
+    },
+    {
+     "prize": 25,
+     "total": 14330,
+     "remaining": 10723,
+     "odds_printed": 78.98,
+     "odds_live": 79.09
+    },
+    {
+     "prize": 20,
+     "total": 84875,
+     "remaining": 63371,
+     "odds_printed": 13.33,
+     "odds_live": 13.38
+    },
+    {
+     "prize": 15,
+     "total": 67972,
+     "remaining": 51029,
+     "odds_printed": 16.65,
+     "odds_live": 16.62
+    },
+    {
+     "prize": 10,
+     "total": 135740,
+     "remaining": 102095,
+     "odds_printed": 8.34,
+     "odds_live": 8.31
+    }
+   ]
+  },
+  {
+   "game_number": "1706",
+   "identifier": "Six-Figures",
+   "name": "Six Figures",
+   "price": 10,
+   "overall_odds": 3.48,
+   "top_prize_display": "200,000",
+   "on_sale": "2026-09-03",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/A94Eh9XX9AvI5ZYaXLCCi/191c7730a3a3e77968728536029eb083/NH-1706_SIX_FIGURES_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/5rDoUfCt0rCdtSrF9KTaIp/095dbc29f2b1b06c57318a5d6189f7c7/NH-1706_SIX_FIGURES_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Six-Figures",
+   "tickets_printed": 1128200,
+   "tickets_remaining": 1016499,
+   "percent_unsold": 90.1,
+   "prize_money_printed": 8143480,
+   "prize_money_unclaimed": 7420935,
+   "ev_printed": 0.7218,
+   "ev_now": 0.73,
+   "prizes": [
+    {
+     "prize": 200000,
+     "total": 4,
+     "remaining": 4,
+     "odds_printed": 282050.0,
+     "odds_live": 254124.75
+    },
+    {
+     "prize": 20000,
+     "total": 5,
+     "remaining": 5,
+     "odds_printed": 225640.0,
+     "odds_live": 203299.8
+    },
+    {
+     "prize": 1000,
+     "total": 348,
+     "remaining": 317,
+     "odds_printed": 3241.95,
+     "odds_live": 3206.62
+    },
+    {
+     "prize": 500,
+     "total": 942,
+     "remaining": 838,
+     "odds_printed": 1197.66,
+     "odds_live": 1213.01
+    },
+    {
+     "prize": 200,
+     "total": 1646,
+     "remaining": 1486,
+     "odds_printed": 685.42,
+     "odds_live": 684.05
+    },
+    {
+     "prize": 120,
+     "total": 2683,
+     "remaining": 2419,
+     "odds_printed": 420.5,
+     "odds_live": 420.21
+    },
+    {
+     "prize": 100,
+     "total": 6470,
+     "remaining": 5809,
+     "odds_printed": 174.37,
+     "odds_live": 174.99
+    },
+    {
+     "prize": 60,
+     "total": 8964,
+     "remaining": 8048,
+     "odds_printed": 125.86,
+     "odds_live": 126.3
+    },
+    {
+     "prize": 30,
+     "total": 21326,
+     "remaining": 19175,
+     "odds_printed": 52.9,
+     "odds_live": 53.01
+    },
+    {
+     "prize": 20,
+     "total": 67692,
+     "remaining": 60977,
+     "odds_printed": 16.67,
+     "odds_live": 16.67
+    },
+    {
+     "prize": 15,
+     "total": 90256,
+     "remaining": 81301,
+     "odds_printed": 12.5,
+     "odds_live": 12.5
+    },
+    {
+     "prize": 10,
+     "total": 124102,
+     "remaining": 111937,
+     "odds_printed": 9.09,
+     "odds_live": 9.08
+    }
+   ]
+  },
+  {
+   "game_number": "1696",
+   "identifier": "Stroke-of-Luck",
+   "name": "Stroke of Luck",
+   "price": 10,
+   "overall_odds": 3.58,
+   "top_prize_display": "$200,000",
+   "on_sale": "2026-05-04",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/6n9sAscmP23ONtWXz9rBFg/c8c595f363457956668eaab02170fff8/NH_1696_Stroke_of_Luck_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/7sV4dGMWcqsz3fsk64tb2a/6b61d33482c599f00b21b1fe4fb9f921/NH_1696_Stroke_of_Luck_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Stroke-of-Luck",
+   "tickets_printed": 1131050,
+   "tickets_remaining": 703053,
+   "percent_unsold": 62.16,
+   "prize_money_printed": 8164400,
+   "prize_money_unclaimed": 5350465,
+   "ev_printed": 0.7218,
+   "ev_now": 0.761,
+   "prizes": [
+    {
+     "prize": 200000,
+     "total": 4,
+     "remaining": 4,
+     "odds_printed": 282762.5,
+     "odds_live": 175763.25
+    },
+    {
+     "prize": 10000,
+     "total": 8,
+     "remaining": 5,
+     "odds_printed": 141381.25,
+     "odds_live": 140610.6
+    },
+    {
+     "prize": 1000,
+     "total": 195,
+     "remaining": 125,
+     "odds_printed": 5800.26,
+     "odds_live": 5624.42
+    },
+    {
+     "prize": 500,
+     "total": 1220,
+     "remaining": 740,
+     "odds_printed": 927.09,
+     "odds_live": 950.07
+    },
+    {
+     "prize": 200,
+     "total": 1364,
+     "remaining": 827,
+     "odds_printed": 829.22,
+     "odds_live": 850.12
+    },
+    {
+     "prize": 150,
+     "total": 3727,
+     "remaining": 2280,
+     "odds_printed": 303.47,
+     "odds_live": 308.36
+    },
+    {
+     "prize": 100,
+     "total": 8052,
+     "remaining": 4942,
+     "odds_printed": 140.47,
+     "odds_live": 142.26
+    },
+    {
+     "prize": 50,
+     "total": 11359,
+     "remaining": 6955,
+     "odds_printed": 99.57,
+     "odds_live": 101.09
+    },
+    {
+     "prize": 25,
+     "total": 12629,
+     "remaining": 7845,
+     "odds_printed": 89.56,
+     "odds_live": 89.62
+    },
+    {
+     "prize": 20,
+     "total": 84836,
+     "remaining": 52299,
+     "odds_printed": 13.33,
+     "odds_live": 13.44
+    },
+    {
+     "prize": 15,
+     "total": 67863,
+     "remaining": 42424,
+     "odds_printed": 16.67,
+     "odds_live": 16.57
+    },
+    {
+     "prize": 10,
+     "total": 124401,
+     "remaining": 77765,
+     "odds_printed": 9.09,
+     "odds_live": 9.04
+    }
+   ]
+  },
+  {
+   "game_number": "1643",
+   "identifier": "the-big-10",
+   "name": "The Big 10",
+   "price": 10,
+   "overall_odds": 3.54,
+   "top_prize_display": "$250,000",
+   "on_sale": "2024-08-25",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/4e268LUQLJj3rSLmHfcDP7/be83a06330542648b170d04ab8154ab9/the-big-10-icon",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/6glC6H1I2rOmCeqPz78f4F/87c1f4f2a153537c6c45da2765f97c76/the-big-10-preview-icon",
+   "page_url": "https://www.nhlottery.com/game/the-big-10",
+   "tickets_printed": 1481250,
+   "tickets_remaining": 271340,
+   "percent_unsold": 18.32,
+   "prize_money_printed": 10705525,
+   "prize_money_unclaimed": 1661300,
+   "ev_printed": 0.7227,
+   "ev_now": 0.6123,
+   "prizes": [
+    {
+     "prize": 250000,
+     "total": 4,
+     "remaining": 0,
+     "odds_printed": 370312.5,
+     "odds_live": null
+    },
+    {
+     "prize": 5000,
+     "total": 36,
+     "remaining": 4,
+     "odds_printed": 41145.83,
+     "odds_live": 67835.0
+    },
+    {
+     "prize": 1000,
+     "total": 243,
+     "remaining": 44,
+     "odds_printed": 6095.68,
+     "odds_live": 6166.82
+    },
+    {
+     "prize": 500,
+     "total": 744,
+     "remaining": 120,
+     "odds_printed": 1990.93,
+     "odds_live": 2261.17
+    },
+    {
+     "prize": 200,
+     "total": 1991,
+     "remaining": 286,
+     "odds_printed": 743.97,
+     "odds_live": 948.74
+    },
+    {
+     "prize": 100,
+     "total": 22986,
+     "remaining": 3606,
+     "odds_printed": 64.44,
+     "odds_live": 75.25
+    },
+    {
+     "prize": 50,
+     "total": 14662,
+     "remaining": 2370,
+     "odds_printed": 101.03,
+     "odds_live": 114.49
+    },
+    {
+     "prize": 30,
+     "total": 29625,
+     "remaining": 4868,
+     "odds_printed": 50.0,
+     "odds_live": 55.74
+    },
+    {
+     "prize": 20,
+     "total": 37029,
+     "remaining": 6160,
+     "odds_printed": 40.0,
+     "odds_live": 44.05
+    },
+    {
+     "prize": 15,
+     "total": 148183,
+     "remaining": 27996,
+     "odds_printed": 10.0,
+     "odds_live": 9.69
+    },
+    {
+     "prize": 10,
+     "total": 162855,
+     "remaining": 31182,
+     "odds_printed": 9.1,
+     "odds_live": 8.7
+    }
+   ]
+  },
+  {
+   "game_number": "1686",
+   "identifier": "VIP-Super-Bonus",
+   "name": "VIP Super Bonus",
+   "price": 10,
+   "overall_odds": 3.54,
+   "top_prize_display": "$200,000",
+   "on_sale": "2025-12-29",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/7rxdaLMhbNxQ3mxgFpO06c/e2f5e1aa3a1955f292f863c4b4f8c8d6/NH-1686-VIP-SUPER-BONUS_FINAL.gif",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/3whMiDaRe6yWrSxnIqMnqw/d0b1d0b08cec6d5e5e1683808feee0e2/NH_1686_VIP_SUPER_BONUS_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/VIP-Super-Bonus",
+   "tickets_printed": 1131100,
+   "tickets_remaining": 480385,
+   "percent_unsold": 42.47,
+   "prize_money_printed": 8163890,
+   "prize_money_unclaimed": 3490285,
+   "ev_printed": 0.7218,
+   "ev_now": 0.7266,
+   "prizes": [
+    {
+     "prize": 200000,
+     "total": 4,
+     "remaining": 2,
+     "odds_printed": 282775.0,
+     "odds_live": 240192.5
+    },
+    {
+     "prize": 10000,
+     "total": 6,
+     "remaining": 3,
+     "odds_printed": 188516.67,
+     "odds_live": 160128.33
+    },
+    {
+     "prize": 1000,
+     "total": 316,
+     "remaining": 137,
+     "odds_printed": 3579.43,
+     "odds_live": 3506.46
+    },
+    {
+     "prize": 500,
+     "total": 317,
+     "remaining": 138,
+     "odds_printed": 3568.14,
+     "odds_live": 3481.05
+    },
+    {
+     "prize": 400,
+     "total": 751,
+     "remaining": 310,
+     "odds_printed": 1506.13,
+     "odds_live": 1549.63
+    },
+    {
+     "prize": 250,
+     "total": 1267,
+     "remaining": 518,
+     "odds_printed": 892.74,
+     "odds_live": 927.38
+    },
+    {
+     "prize": 100,
+     "total": 13185,
+     "remaining": 5309,
+     "odds_printed": 85.79,
+     "odds_live": 90.49
+    },
+    {
+     "prize": 50,
+     "total": 15674,
+     "remaining": 6432,
+     "odds_printed": 72.16,
+     "odds_live": 74.69
+    },
+    {
+     "prize": 25,
+     "total": 10572,
+     "remaining": 4383,
+     "odds_printed": 106.99,
+     "odds_live": 109.6
+    },
+    {
+     "prize": 20,
+     "total": 62230,
+     "remaining": 26170,
+     "odds_printed": 18.18,
+     "odds_live": 18.36
+    },
+    {
+     "prize": 15,
+     "total": 90412,
+     "remaining": 38708,
+     "odds_printed": 12.51,
+     "odds_live": 12.41
+    },
+    {
+     "prize": 10,
+     "total": 124496,
+     "remaining": 53469,
+     "odds_printed": 9.09,
+     "odds_live": 8.98
+    }
+   ]
+  },
+  {
+   "game_number": "1636",
+   "identifier": "cash-inferno",
+   "name": "Cash Inferno",
+   "price": 5,
+   "overall_odds": 4.03,
+   "top_prize_display": "$100,000",
+   "on_sale": "2024-06-30",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/6BPRQtwerStYo0MpimJyN8/6420b7c76fdc6c2b21d2915d2a8e78ca/cash-inferno-icon",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/86omwhJesGoqH8bdrD4AS/31b00076205db59d207fe4ac8a5e2118/cash-inferno-preview-icon",
+   "page_url": "https://www.nhlottery.com/game/cash-inferno",
+   "tickets_printed": 1306600,
+   "tickets_remaining": 107772,
+   "percent_unsold": 8.25,
+   "prize_money_printed": 4424610,
+   "prize_money_unclaimed": 373525,
+   "ev_printed": 0.6773,
+   "ev_now": 0.6932,
+   "prizes": [
+    {
+     "prize": 100000,
+     "total": 4,
+     "remaining": 1,
+     "odds_printed": 326650.0,
+     "odds_live": 107772.0
+    },
+    {
+     "prize": 5000,
+     "total": 10,
+     "remaining": 0,
+     "odds_printed": 130660.0,
+     "odds_live": null
+    },
+    {
+     "prize": 500,
+     "total": 239,
+     "remaining": 9,
+     "odds_printed": 5466.95,
+     "odds_live": 11974.67
+    },
+    {
+     "prize": 200,
+     "total": 217,
+     "remaining": 10,
+     "odds_printed": 6021.2,
+     "odds_live": 10777.2
+    },
+    {
+     "prize": 150,
+     "total": 319,
+     "remaining": 14,
+     "odds_printed": 4095.92,
+     "odds_live": 7698.0
+    },
+    {
+     "prize": 100,
+     "total": 4178,
+     "remaining": 222,
+     "odds_printed": 312.73,
+     "odds_live": 485.46
+    },
+    {
+     "prize": 50,
+     "total": 5511,
+     "remaining": 283,
+     "odds_printed": 237.09,
+     "odds_live": 380.82
+    },
+    {
+     "prize": 30,
+     "total": 13066,
+     "remaining": 687,
+     "odds_printed": 100.0,
+     "odds_live": 156.87
+    },
+    {
+     "prize": 20,
+     "total": 39196,
+     "remaining": 2381,
+     "odds_printed": 33.34,
+     "odds_live": 45.26
+    },
+    {
+     "prize": 10,
+     "total": 117642,
+     "remaining": 8950,
+     "odds_printed": 11.11,
+     "odds_live": 12.04
+    },
+    {
+     "prize": 5,
+     "total": 143638,
+     "remaining": 14169,
+     "odds_printed": 9.1,
+     "odds_live": 7.61
+    }
+   ]
+  },
+  {
+   "game_number": "1661",
+   "identifier": "extreme-8s",
+   "name": "Extreme 8’s",
+   "price": 5,
+   "overall_odds": 4.15,
+   "top_prize_display": "$88,888",
+   "on_sale": "2025-03-31",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/6AzFcWAfPkq2t7lD16Qt8g/3431214ee1ef5459436125478213e824/NH-1661EXTREME8S_Detail.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/2MJYD2DNYbEllUy5RnxPnG/2e116da8fdd39d98577a2ea635be79aa/25-00782_-_NH-438x274_Image_2.jpg",
+   "page_url": "https://www.nhlottery.com/game/extreme-8s",
+   "tickets_printed": 1447750,
+   "tickets_remaining": 221497,
+   "percent_unsold": 15.3,
+   "prize_money_printed": 4431987,
+   "prize_money_unclaimed": 763232,
+   "ev_printed": 0.6123,
+   "ev_now": 0.6892,
+   "prizes": [
+    {
+     "prize": 88888,
+     "total": 4,
+     "remaining": 2,
+     "odds_printed": 361937.5,
+     "odds_live": 110748.5
+    },
+    {
+     "prize": 8888,
+     "total": 10,
+     "remaining": 2,
+     "odds_printed": 144775.0,
+     "odds_live": 110748.5
+    },
+    {
+     "prize": 888,
+     "total": 234,
+     "remaining": 36,
+     "odds_printed": 6186.97,
+     "odds_live": 6152.69
+    },
+    {
+     "prize": 188,
+     "total": 618,
+     "remaining": 80,
+     "odds_printed": 2342.64,
+     "odds_live": 2768.71
+    },
+    {
+     "prize": 100,
+     "total": 322,
+     "remaining": 46,
+     "odds_printed": 4496.12,
+     "odds_live": 4815.15
+    },
+    {
+     "prize": 88,
+     "total": 9947,
+     "remaining": 1261,
+     "odds_printed": 145.55,
+     "odds_live": 175.65
+    },
+    {
+     "prize": 50,
+     "total": 7169,
+     "remaining": 905,
+     "odds_printed": 201.95,
+     "odds_live": 244.75
+    },
+    {
+     "prize": 28,
+     "total": 9420,
+     "remaining": 1219,
+     "odds_printed": 153.69,
+     "odds_live": 181.7
+    },
+    {
+     "prize": 18,
+     "total": 26179,
+     "remaining": 3651,
+     "odds_printed": 55.3,
+     "odds_live": 60.67
+    },
+    {
+     "prize": 8,
+     "total": 117822,
+     "remaining": 18163,
+     "odds_printed": 12.29,
+     "odds_live": 12.19
+    },
+    {
+     "prize": 5,
+     "total": 144007,
+     "remaining": 22940,
+     "odds_printed": 10.05,
+     "odds_live": 9.66
+    }
+   ]
+  },
+  {
+   "game_number": "1700",
+   "identifier": "Fab-4",
+   "name": "Fab 4",
+   "price": 5,
+   "overall_odds": 4.04,
+   "top_prize_display": "$100,000",
+   "on_sale": "2026-06-15",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/75wBnWZdMof1lHiit1mYch/601da78d58726f0aa874f62c4a23c6c5/NH_1700_FAB_4_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/4hVPo8hqTh0DoVtPvdjGBl/ed1aee7727979713b43df3789ece1364/NH_1700_FAB_4_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Fab-4",
+   "tickets_printed": 892800,
+   "tickets_remaining": 497527,
+   "percent_unsold": 55.73,
+   "prize_money_printed": 3031630,
+   "prize_money_unclaimed": 1631405,
+   "ev_printed": 0.6791,
+   "ev_now": 0.6558,
+   "prizes": [
+    {
+     "prize": 100000,
+     "total": 4,
+     "remaining": 2,
+     "odds_printed": 223200.0,
+     "odds_live": 248763.5
+    },
+    {
+     "prize": 1000,
+     "total": 4,
+     "remaining": 3,
+     "odds_printed": 223200.0,
+     "odds_live": 165842.33
+    },
+    {
+     "prize": 500,
+     "total": 125,
+     "remaining": 62,
+     "odds_printed": 7142.4,
+     "odds_live": 8024.63
+    },
+    {
+     "prize": 200,
+     "total": 253,
+     "remaining": 132,
+     "odds_printed": 3528.85,
+     "odds_live": 3769.14
+    },
+    {
+     "prize": 100,
+     "total": 2046,
+     "remaining": 1067,
+     "odds_printed": 436.36,
+     "odds_live": 466.29
+    },
+    {
+     "prize": 75,
+     "total": 1140,
+     "remaining": 574,
+     "odds_printed": 783.16,
+     "odds_live": 866.77
+    },
+    {
+     "prize": 50,
+     "total": 2846,
+     "remaining": 1519,
+     "odds_printed": 313.7,
+     "odds_live": 327.54
+    },
+    {
+     "prize": 40,
+     "total": 4046,
+     "remaining": 2124,
+     "odds_printed": 220.66,
+     "odds_live": 234.24
+    },
+    {
+     "prize": 25,
+     "total": 3602,
+     "remaining": 1945,
+     "odds_printed": 247.86,
+     "odds_live": 255.8
+    },
+    {
+     "prize": 20,
+     "total": 21453,
+     "remaining": 11340,
+     "odds_printed": 41.62,
+     "odds_live": 43.87
+    },
+    {
+     "prize": 10,
+     "total": 94602,
+     "remaining": 52511,
+     "odds_printed": 9.44,
+     "odds_live": 9.47
+    },
+    {
+     "prize": 5,
+     "total": 91032,
+     "remaining": 51962,
+     "odds_printed": 9.81,
+     "odds_live": 9.57
+    }
+   ]
+  },
+  {
+   "game_number": "1676",
+   "identifier": "fame-fortune",
+   "name": "Fame & Fortune",
+   "price": 5,
+   "overall_odds": 4.14,
+   "top_prize_display": "$100,000",
+   "on_sale": "2025-09-29",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/5zzad2dG4jIbrb5BLi4x2L/34f4ee8997b06c687eaa9428370f6a89/NH-1676_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/12ASEh9U9umb67QR7kauvx/d857d5683be3fb4362ebfa0769a90c6f/NH-1676_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/fame-fortune",
+   "tickets_printed": 1041200,
+   "tickets_remaining": 77844,
+   "percent_unsold": 7.48,
+   "prize_money_printed": 3520290,
+   "prize_money_unclaimed": 304215,
+   "ev_printed": 0.6762,
+   "ev_now": 0.7816,
+   "prizes": [
+    {
+     "prize": 100000,
+     "total": 4,
+     "remaining": 1,
+     "odds_printed": 260300.0,
+     "odds_live": 77844.0
+    },
+    {
+     "prize": 1000,
+     "total": 25,
+     "remaining": 2,
+     "odds_printed": 41648.0,
+     "odds_live": 38922.0
+    },
+    {
+     "prize": 500,
+     "total": 165,
+     "remaining": 5,
+     "odds_printed": 6310.3,
+     "odds_live": 15568.8
+    },
+    {
+     "prize": 200,
+     "total": 135,
+     "remaining": 11,
+     "odds_printed": 7712.59,
+     "odds_live": 7076.73
+    },
+    {
+     "prize": 100,
+     "total": 3359,
+     "remaining": 148,
+     "odds_printed": 309.97,
+     "odds_live": 525.97
+    },
+    {
+     "prize": 50,
+     "total": 3037,
+     "remaining": 197,
+     "odds_printed": 342.84,
+     "odds_live": 395.15
+    },
+    {
+     "prize": 40,
+     "total": 7788,
+     "remaining": 382,
+     "odds_printed": 133.69,
+     "odds_live": 203.78
+    },
+    {
+     "prize": 25,
+     "total": 26058,
+     "remaining": 1731,
+     "odds_printed": 39.96,
+     "odds_live": 44.97
+    },
+    {
+     "prize": 10,
+     "total": 96220,
+     "remaining": 6546,
+     "odds_printed": 10.82,
+     "odds_live": 11.89
+    },
+    {
+     "prize": 5,
+     "total": 114574,
+     "remaining": 9770,
+     "odds_printed": 9.09,
+     "odds_live": 7.97
+    }
+   ]
+  },
+  {
+   "game_number": "1694",
+   "identifier": "Fat-Stacks",
+   "name": "Fat Stacks",
+   "price": 5,
+   "overall_odds": 4.06,
+   "top_prize_display": "$100,000",
+   "on_sale": "2026-03-23",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/H9dDA3oVHy5eClRmXeDg2/156d0cd9c31bf763a6d04ded12e438da/NH_1694_Fat_Stacks_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/1qrX89aYrima9khJWaYKNE/d6b7796a576fb8ca283ee8f3c8d4ebdb/NH_1694_Fat_Stacks_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Fat-Stacks",
+   "tickets_printed": 1805900,
+   "tickets_remaining": 1047696,
+   "percent_unsold": 58.02,
+   "prize_money_printed": 6115180,
+   "prize_money_unclaimed": 3458525,
+   "ev_printed": 0.6772,
+   "ev_now": 0.6602,
+   "prizes": [
+    {
+     "prize": 100000,
+     "total": 8,
+     "remaining": 4,
+     "odds_printed": 225737.5,
+     "odds_live": 261924.0
+    },
+    {
+     "prize": 1000,
+     "total": 8,
+     "remaining": 5,
+     "odds_printed": 225737.5,
+     "odds_live": 209539.2
+    },
+    {
+     "prize": 500,
+     "total": 245,
+     "remaining": 136,
+     "odds_printed": 7371.02,
+     "odds_live": 7703.65
+    },
+    {
+     "prize": 100,
+     "total": 4427,
+     "remaining": 2520,
+     "odds_printed": 407.93,
+     "odds_live": 415.75
+    },
+    {
+     "prize": 50,
+     "total": 16394,
+     "remaining": 9310,
+     "odds_printed": 110.16,
+     "odds_live": 112.53
+    },
+    {
+     "prize": 25,
+     "total": 16031,
+     "remaining": 9161,
+     "odds_printed": 112.65,
+     "odds_live": 114.36
+    },
+    {
+     "prize": 20,
+     "total": 36118,
+     "remaining": 20675,
+     "odds_printed": 50.0,
+     "odds_live": 50.67
+    },
+    {
+     "prize": 10,
+     "total": 187804,
+     "remaining": 108595,
+     "odds_printed": 9.62,
+     "odds_live": 9.65
+    },
+    {
+     "prize": 5,
+     "total": 184221,
+     "remaining": 107910,
+     "odds_printed": 9.8,
+     "odds_live": 9.71
+    }
+   ]
+  },
+  {
+   "game_number": "1703",
+   "identifier": "Gem-Jam",
+   "name": "Gem Jam",
+   "price": 5,
+   "overall_odds": 4.18,
+   "top_prize_display": "$100,000",
+   "on_sale": "2026-07-27",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/6tbFWOsZ5CKOJALqfOShHM/4053301d78fd23cc07626206a5eb66b6/NH-1703_GEM_JAM_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/CEEWDnJSxVwkqTtCgDIGu/a3963fbad9ed147840ec4164ae9b4ec0/NH-1703_GEM_JAM_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Gem-Jam",
+   "tickets_printed": 920700,
+   "tickets_remaining": 636221,
+   "percent_unsold": 69.1,
+   "prize_money_printed": 3111290,
+   "prize_money_unclaimed": 2071715,
+   "ev_printed": 0.6759,
+   "ev_now": 0.6513,
+   "prizes": [
+    {
+     "prize": 100000,
+     "total": 4,
+     "remaining": 2,
+     "odds_printed": 230175.0,
+     "odds_live": 318110.5
+    },
+    {
+     "prize": 5000,
+     "total": 12,
+     "remaining": 9,
+     "odds_printed": 76725.0,
+     "odds_live": 70691.22
+    },
+    {
+     "prize": 500,
+     "total": 68,
+     "remaining": 46,
+     "odds_printed": 13539.71,
+     "odds_live": 13830.89
+    },
+    {
+     "prize": 100,
+     "total": 2150,
+     "remaining": 1507,
+     "odds_printed": 428.23,
+     "odds_live": 422.18
+    },
+    {
+     "prize": 75,
+     "total": 754,
+     "remaining": 513,
+     "odds_printed": 1221.09,
+     "odds_live": 1240.2
+    },
+    {
+     "prize": 50,
+     "total": 7233,
+     "remaining": 4950,
+     "odds_printed": 127.29,
+     "odds_live": 128.53
+    },
+    {
+     "prize": 25,
+     "total": 7549,
+     "remaining": 5239,
+     "odds_printed": 121.96,
+     "odds_live": 121.44
+    },
+    {
+     "prize": 20,
+     "total": 18414,
+     "remaining": 12540,
+     "odds_printed": 50.0,
+     "odds_live": 50.74
+    },
+    {
+     "prize": 10,
+     "total": 101277,
+     "remaining": 69611,
+     "odds_printed": 9.09,
+     "odds_live": 9.14
+    },
+    {
+     "prize": 5,
+     "total": 82863,
+     "remaining": 57831,
+     "odds_printed": 11.11,
+     "odds_live": 11.0
+    }
+   ]
+  },
+  {
+   "game_number": "1668",
+   "identifier": "Hi-or-Lo",
+   "name": "Hi or Lo",
+   "price": 5,
+   "overall_odds": 4.16,
+   "top_prize_display": "$100,000",
+   "on_sale": "2025-06-30",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/5j7Tty9DDXGgmd9SfVV86i/a91e4024294c741eec823ef8d0c19296/NH-_1668_HI_OR_LO_Deatail.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/35RKMyyRBSIl9IDlMVDXBV/0e686785eadf7df168833211ac50ecd3/NH-_1668_HI_OR_LO_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Hi-or-Lo",
+   "tickets_printed": 1308500,
+   "tickets_remaining": 562311,
+   "percent_unsold": 42.97,
+   "prize_money_printed": 4433050,
+   "prize_money_unclaimed": 1871735,
+   "ev_printed": 0.6776,
+   "ev_now": 0.6657,
+   "prizes": [
+    {
+     "prize": 100000,
+     "total": 4,
+     "remaining": 2,
+     "odds_printed": 327125.0,
+     "odds_live": 281155.5
+    },
+    {
+     "prize": 5000,
+     "total": 10,
+     "remaining": 3,
+     "odds_printed": 130850.0,
+     "odds_live": 187437.0
+    },
+    {
+     "prize": 500,
+     "total": 213,
+     "remaining": 78,
+     "odds_printed": 6143.19,
+     "odds_live": 7209.12
+    },
+    {
+     "prize": 200,
+     "total": 330,
+     "remaining": 126,
+     "odds_printed": 3965.15,
+     "odds_live": 4462.79
+    },
+    {
+     "prize": 100,
+     "total": 4739,
+     "remaining": 1918,
+     "odds_printed": 276.11,
+     "odds_live": 293.18
+    },
+    {
+     "prize": 50,
+     "total": 14406,
+     "remaining": 5790,
+     "odds_printed": 90.83,
+     "odds_live": 97.12
+    },
+    {
+     "prize": 25,
+     "total": 10442,
+     "remaining": 4289,
+     "odds_printed": 125.31,
+     "odds_live": 131.11
+    },
+    {
+     "prize": 20,
+     "total": 22900,
+     "remaining": 9425,
+     "odds_printed": 57.14,
+     "odds_live": 59.66
+    },
+    {
+     "prize": 10,
+     "total": 117779,
+     "remaining": 49484,
+     "odds_printed": 11.11,
+     "odds_live": 11.36
+    },
+    {
+     "prize": 5,
+     "total": 143902,
+     "remaining": 64134,
+     "odds_printed": 9.09,
+     "odds_live": 8.77
+    }
+   ]
+  },
+  {
+   "game_number": "1697",
+   "identifier": "Jokers-Wild",
+   "name": "Joker's Wild",
+   "price": 5,
+   "overall_odds": 4.04,
+   "top_prize_display": "$100,000",
+   "on_sale": "2026-05-04",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/SZQrUK6Tyjp8FiC6N9luN/7ff68451c9df4c733230832529132e6a/NH_1697_Joker-s_Wild_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/4SORirKZp6mxu6NNLqPQCW/cd481fba6981e3d12819c960dd5ad861/NH_1697_Joker-s_Wild_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Jokers-Wild",
+   "tickets_printed": 913800,
+   "tickets_remaining": 321262,
+   "percent_unsold": 35.16,
+   "prize_money_printed": 3089870,
+   "prize_money_unclaimed": 1022730,
+   "ev_printed": 0.6763,
+   "ev_now": 0.6367,
+   "prizes": [
+    {
+     "prize": 100000,
+     "total": 4,
+     "remaining": 1,
+     "odds_printed": 228450.0,
+     "odds_live": 321262.0
+    },
+    {
+     "prize": 1000,
+     "total": 4,
+     "remaining": 3,
+     "odds_printed": 228450.0,
+     "odds_live": 107087.33
+    },
+    {
+     "prize": 500,
+     "total": 112,
+     "remaining": 38,
+     "odds_printed": 8158.93,
+     "odds_live": 8454.26
+    },
+    {
+     "prize": 100,
+     "total": 2700,
+     "remaining": 905,
+     "odds_printed": 338.44,
+     "odds_live": 354.99
+    },
+    {
+     "prize": 50,
+     "total": 6800,
+     "remaining": 2195,
+     "odds_printed": 134.38,
+     "odds_live": 146.36
+    },
+    {
+     "prize": 30,
+     "total": 6409,
+     "remaining": 2117,
+     "odds_printed": 142.58,
+     "odds_live": 151.75
+    },
+    {
+     "prize": 20,
+     "total": 18232,
+     "remaining": 6106,
+     "odds_printed": 50.12,
+     "odds_live": 52.61
+    },
+    {
+     "prize": 10,
+     "total": 100606,
+     "remaining": 34794,
+     "odds_printed": 9.08,
+     "odds_live": 9.23
+    },
+    {
+     "prize": 5,
+     "total": 91380,
+     "remaining": 33382,
+     "odds_printed": 10.0,
+     "odds_live": 9.62
+    }
+   ]
+  },
+  {
+   "game_number": "1709",
+   "identifier": "Kaboom",
+   "name": "Kaboom",
+   "price": 5,
+   "overall_odds": 3.48,
+   "top_prize_display": "$100,000",
+   "on_sale": "2026-09-03",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/3vr36Gc5YU9lO7tKNXZNAf/5309fac91ec99f026efb46da8b848b4e/NH-1709_KABOOM_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/6vtBmM3C7Kbr7MhT0c5y8x/a2ea9c27fdc7540162852ffb3caf8f72/NH-1709_KABOOM_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Kaboom",
+   "tickets_printed": 885300,
+   "tickets_remaining": 790450,
+   "percent_unsold": 89.29,
+   "prize_money_printed": 3011850,
+   "prize_money_unclaimed": 2625800,
+   "ev_printed": 0.6804,
+   "ev_now": 0.6644,
+   "prizes": [
+    {
+     "prize": 100000,
+     "total": 4,
+     "remaining": 3,
+     "odds_printed": 221325.0,
+     "odds_live": 263483.33
+    },
+    {
+     "prize": 1000,
+     "total": 52,
+     "remaining": 47,
+     "odds_printed": 17025.0,
+     "odds_live": 16818.09
+    },
+    {
+     "prize": 500,
+     "total": 223,
+     "remaining": 195,
+     "odds_printed": 3969.96,
+     "odds_live": 4053.59
+    },
+    {
+     "prize": 100,
+     "total": 2760,
+     "remaining": 2453,
+     "odds_printed": 320.76,
+     "odds_live": 322.24
+    },
+    {
+     "prize": 50,
+     "total": 8035,
+     "remaining": 7131,
+     "odds_printed": 110.18,
+     "odds_live": 110.85
+    },
+    {
+     "prize": 20,
+     "total": 17706,
+     "remaining": 15746,
+     "odds_printed": 50.0,
+     "odds_live": 50.2
+    },
+    {
+     "prize": 10,
+     "total": 97383,
+     "remaining": 86790,
+     "odds_printed": 9.09,
+     "odds_live": 9.11
+    },
+    {
+     "prize": 5,
+     "total": 88530,
+     "remaining": 79326,
+     "odds_printed": 10.0,
+     "odds_live": 9.96
+    }
+   ]
+  },
+  {
+   "game_number": "1690",
+   "identifier": "Lucky-603",
+   "name": "Lucky 603",
+   "price": 5,
+   "overall_odds": 3.97,
+   "top_prize_display": "$100,000",
+   "on_sale": "2026-02-09",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/2IwEBhiKtcSQhJWzzyHBWI/aaeb3ecb0808c5934efbc4a3d120f3f4/nh_1690_lucky_603_final.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/4D561BqNXDQ7gPh5FQO59e/89d363b9edddc19b34772856e964aa5f/NH_1690_Lucky_603_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Lucky-603",
+   "tickets_printed": 911700,
+   "tickets_remaining": 168905,
+   "percent_unsold": 18.53,
+   "prize_money_printed": 3085455,
+   "prize_money_unclaimed": 472770,
+   "ev_printed": 0.6769,
+   "ev_now": 0.5598,
+   "prizes": [
+    {
+     "prize": 100000,
+     "total": 4,
+     "remaining": 0,
+     "odds_printed": 227925.0,
+     "odds_live": null
+    },
+    {
+     "prize": 1000,
+     "total": 5,
+     "remaining": 1,
+     "odds_printed": 182340.0,
+     "odds_live": 168905.0
+    },
+    {
+     "prize": 500,
+     "total": 147,
+     "remaining": 22,
+     "odds_printed": 6202.04,
+     "odds_live": 7677.5
+    },
+    {
+     "prize": 200,
+     "total": 215,
+     "remaining": 33,
+     "odds_printed": 4240.47,
+     "odds_live": 5118.33
+    },
+    {
+     "prize": 100,
+     "total": 2948,
+     "remaining": 495,
+     "odds_printed": 309.26,
+     "odds_live": 341.22
+    },
+    {
+     "prize": 50,
+     "total": 5838,
+     "remaining": 932,
+     "odds_printed": 156.17,
+     "odds_live": 181.23
+    },
+    {
+     "prize": 30,
+     "total": 3609,
+     "remaining": 599,
+     "odds_printed": 252.62,
+     "odds_live": 281.98
+    },
+    {
+     "prize": 20,
+     "total": 20057,
+     "remaining": 3389,
+     "odds_printed": 45.46,
+     "odds_live": 49.84
+    },
+    {
+     "prize": 10,
+     "total": 96628,
+     "remaining": 17368,
+     "odds_printed": 9.44,
+     "odds_live": 9.73
+    },
+    {
+     "prize": 5,
+     "total": 100313,
+     "remaining": 19728,
+     "odds_printed": 9.09,
+     "odds_live": 8.56
+    }
+   ]
+  },
+  {
+   "game_number": "1708",
+   "identifier": "Patriots",
+   "name": "Patriots®",
+   "price": 5,
+   "overall_odds": 4.08,
+   "top_prize_display": "$250",
+   "on_sale": "2026-09-03",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/ddJvPme9At5CeohtFYsxa/66164e51e0f37418052e82cb840e2ba1/NH_1708_Patriots_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/7usACiuSU1enStgS5VWLjR/078b6a4352f7d8680f0c8b8201fdf172/NH_1708_Patriots_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Patriots",
+   "tickets_printed": 923900,
+   "tickets_remaining": 799372,
+   "percent_unsold": 86.52,
+   "prize_money_printed": 3142135,
+   "prize_money_unclaimed": 2709795,
+   "ev_printed": 0.6802,
+   "ev_now": 0.678,
+   "prizes": [
+    {
+     "prize": 250,
+     "total": 1994,
+     "remaining": 1719,
+     "odds_printed": 463.34,
+     "odds_live": 465.02
+    },
+    {
+     "prize": 150,
+     "total": 204,
+     "remaining": 172,
+     "odds_printed": 4528.92,
+     "odds_live": 4647.51
+    },
+    {
+     "prize": 100,
+     "total": 2858,
+     "remaining": 2457,
+     "odds_printed": 323.27,
+     "odds_live": 325.34
+    },
+    {
+     "prize": 50,
+     "total": 6402,
+     "remaining": 5496,
+     "odds_printed": 144.31,
+     "odds_live": 145.45
+    },
+    {
+     "prize": 40,
+     "total": 2196,
+     "remaining": 1885,
+     "odds_printed": 420.72,
+     "odds_live": 424.07
+    },
+    {
+     "prize": 25,
+     "total": 2843,
+     "remaining": 2442,
+     "odds_printed": 324.97,
+     "odds_live": 327.34
+    },
+    {
+     "prize": 20,
+     "total": 23110,
+     "remaining": 19907,
+     "odds_printed": 39.98,
+     "odds_live": 40.16
+    },
+    {
+     "prize": 10,
+     "total": 90088,
+     "remaining": 77745,
+     "odds_printed": 10.26,
+     "odds_live": 10.28
+    },
+    {
+     "prize": 5,
+     "total": 97028,
+     "remaining": 84341,
+     "odds_printed": 9.52,
+     "odds_live": 9.48
+    }
+   ]
+  },
+  {
+   "game_number": "1689",
+   "identifier": "Top-Secret-Money-Puzzle",
+   "name": "Top Secret Money Puzzle",
+   "price": 5,
+   "overall_odds": 4.12,
+   "top_prize_display": "$100,000",
+   "on_sale": "2026-02-09",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/6ANxiYXtF3Eb52sxwFc1P7/7da423cbd04bf507c45bad154b4d7128/Top_Secret_Money_Puzzle.gif",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/dDcdP0Nck9pNiuzv9WY1Z/f1857646e27393a2a3e18e61f11ffd00/NH_1689_TOP_SECRET_MONEY_PUZZLE_WEB_FINAL.png",
+   "page_url": "https://www.nhlottery.com/game/Top-Secret-Money-Puzzle",
+   "tickets_printed": 1044800,
+   "tickets_remaining": 293311,
+   "percent_unsold": 28.07,
+   "prize_money_printed": 3528940,
+   "prize_money_unclaimed": 797040,
+   "ev_printed": 0.6755,
+   "ev_now": 0.5435,
+   "prizes": [
+    {
+     "prize": 100000,
+     "total": 4,
+     "remaining": 0,
+     "odds_printed": 261200.0,
+     "odds_live": null
+    },
+    {
+     "prize": 2000,
+     "total": 6,
+     "remaining": 0,
+     "odds_printed": 174133.33,
+     "odds_live": null
+    },
+    {
+     "prize": 500,
+     "total": 116,
+     "remaining": 27,
+     "odds_printed": 9006.9,
+     "odds_live": 10863.37
+    },
+    {
+     "prize": 200,
+     "total": 378,
+     "remaining": 85,
+     "odds_printed": 2764.02,
+     "odds_live": 3450.72
+    },
+    {
+     "prize": 125,
+     "total": 516,
+     "remaining": 113,
+     "odds_printed": 2024.81,
+     "odds_live": 2595.67
+    },
+    {
+     "prize": 100,
+     "total": 1370,
+     "remaining": 290,
+     "odds_printed": 762.63,
+     "odds_live": 1011.42
+    },
+    {
+     "prize": 75,
+     "total": 1886,
+     "remaining": 421,
+     "odds_printed": 553.98,
+     "odds_live": 696.7
+    },
+    {
+     "prize": 50,
+     "total": 6530,
+     "remaining": 1517,
+     "odds_printed": 160.0,
+     "odds_live": 193.35
+    },
+    {
+     "prize": 30,
+     "total": 4354,
+     "remaining": 1001,
+     "odds_printed": 239.96,
+     "odds_live": 293.02
+    },
+    {
+     "prize": 25,
+     "total": 16706,
+     "remaining": 3853,
+     "odds_printed": 62.54,
+     "odds_live": 76.13
+    },
+    {
+     "prize": 20,
+     "total": 10448,
+     "remaining": 2453,
+     "odds_printed": 100.0,
+     "odds_live": 119.57
+    },
+    {
+     "prize": 15,
+     "total": 8347,
+     "remaining": 1992,
+     "odds_printed": 125.17,
+     "odds_live": 147.24
+    },
+    {
+     "prize": 10,
+     "total": 83577,
+     "remaining": 22760,
+     "odds_printed": 12.5,
+     "odds_live": 12.89
+    },
+    {
+     "prize": 5,
+     "total": 119137,
+     "remaining": 36619,
+     "odds_printed": 8.77,
+     "odds_live": 8.01
+    }
+   ]
+  },
+  {
+   "game_number": "1685",
+   "identifier": "VIP-Triple-Bonus",
+   "name": "VIP Triple Bonus",
+   "price": 5,
+   "overall_odds": 4.28,
+   "top_prize_display": "$100,000",
+   "on_sale": "2025-12-29",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/6LH78R747QDZa4wahn7aIe/387c6bf276cf88d4f3b51ca81901e3dd/NH-1685-VIP-TRIPLE-BONUS_FINAL.gif",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/6Vi1SWtqpHnu4rxTDgM4WT/de021af8c39a81411dea571c3cbabb26/NH_1685_VIP_TRIPLE_BONUS_WEB_FINAL.png",
+   "page_url": "https://www.nhlottery.com/game/VIP-Triple-Bonus",
+   "tickets_printed": 1307600,
+   "tickets_remaining": 423057,
+   "percent_unsold": 32.35,
+   "prize_money_printed": 4425115,
+   "prize_money_unclaimed": 1321505,
+   "ev_printed": 0.6768,
+   "ev_now": 0.6247,
+   "prizes": [
+    {
+     "prize": 100000,
+     "total": 5,
+     "remaining": 1,
+     "odds_printed": 261520.0,
+     "odds_live": 423057.0
+    },
+    {
+     "prize": 5000,
+     "total": 11,
+     "remaining": 3,
+     "odds_printed": 118872.73,
+     "odds_live": 141019.0
+    },
+    {
+     "prize": 1000,
+     "total": 64,
+     "remaining": 22,
+     "odds_printed": 20431.25,
+     "odds_live": 19229.86
+    },
+    {
+     "prize": 500,
+     "total": 164,
+     "remaining": 47,
+     "odds_printed": 7973.17,
+     "odds_live": 9001.21
+    },
+    {
+     "prize": 250,
+     "total": 203,
+     "remaining": 53,
+     "odds_printed": 6441.38,
+     "odds_live": 7982.21
+    },
+    {
+     "prize": 100,
+     "total": 3454,
+     "remaining": 1031,
+     "odds_printed": 378.58,
+     "odds_live": 410.34
+    },
+    {
+     "prize": 50,
+     "total": 13076,
+     "remaining": 3828,
+     "odds_printed": 100.0,
+     "odds_live": 110.52
+    },
+    {
+     "prize": 25,
+     "total": 7589,
+     "remaining": 2276,
+     "odds_printed": 172.3,
+     "odds_live": 185.88
+    },
+    {
+     "prize": 20,
+     "total": 39228,
+     "remaining": 12049,
+     "odds_printed": 33.33,
+     "odds_live": 35.11
+    },
+    {
+     "prize": 10,
+     "total": 98012,
+     "remaining": 31461,
+     "odds_printed": 13.34,
+     "odds_live": 13.45
+    },
+    {
+     "prize": 5,
+     "total": 143952,
+     "remaining": 48153,
+     "odds_printed": 9.08,
+     "odds_live": 8.79
+    }
+   ]
+  },
+  {
+   "game_number": "1695",
+   "identifier": "Casino-Nights",
+   "name": "Casino Nights",
+   "price": 3,
+   "overall_odds": 3.99,
+   "top_prize_display": "$50,000",
+   "on_sale": "2026-03-23",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/pesn6QLNq1lWXLnBk3DRf/6401197de28ec1af280c106bc8862dd2/NH_1695_Casino_Nights_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/lEZ8GtKHYvJT2vUjwNeHl/368dc68f45cb92e3c8ce2968c74f71b7/NH_1695_Casino_Nights_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Casino-Nights",
+   "tickets_printed": 1034800,
+   "tickets_remaining": 523407,
+   "percent_unsold": 50.58,
+   "prize_money_printed": 1949359,
+   "prize_money_unclaimed": 974184,
+   "ev_printed": 0.6279,
+   "ev_now": 0.6204,
+   "prizes": [
+    {
+     "prize": 50000,
+     "total": 4,
+     "remaining": 2,
+     "odds_printed": 258700.0,
+     "odds_live": 261703.5
+    },
+    {
+     "prize": 1000,
+     "total": 5,
+     "remaining": 3,
+     "odds_printed": 206960.0,
+     "odds_live": 174469.0
+    },
+    {
+     "prize": 500,
+     "total": 61,
+     "remaining": 31,
+     "odds_printed": 16963.93,
+     "odds_live": 16884.1
+    },
+    {
+     "prize": 200,
+     "total": 104,
+     "remaining": 50,
+     "odds_printed": 9950.0,
+     "odds_live": 10468.14
+    },
+    {
+     "prize": 100,
+     "total": 506,
+     "remaining": 244,
+     "odds_printed": 2045.06,
+     "odds_live": 2145.11
+    },
+    {
+     "prize": 75,
+     "total": 317,
+     "remaining": 151,
+     "odds_printed": 3264.35,
+     "odds_live": 3466.27
+    },
+    {
+     "prize": 50,
+     "total": 1793,
+     "remaining": 871,
+     "odds_printed": 577.13,
+     "odds_live": 600.93
+    },
+    {
+     "prize": 30,
+     "total": 3367,
+     "remaining": 1650,
+     "odds_printed": 307.34,
+     "odds_live": 317.22
+    },
+    {
+     "prize": 20,
+     "total": 12942,
+     "remaining": 6350,
+     "odds_printed": 79.96,
+     "odds_live": 82.43
+    },
+    {
+     "prize": 10,
+     "total": 38798,
+     "remaining": 19297,
+     "odds_printed": 26.67,
+     "odds_live": 27.12
+    },
+    {
+     "prize": 5,
+     "total": 87944,
+     "remaining": 44430,
+     "odds_printed": 11.77,
+     "odds_live": 11.78
+    },
+    {
+     "prize": 3,
+     "total": 113828,
+     "remaining": 58263,
+     "odds_printed": 9.09,
+     "odds_live": 8.98
+    }
+   ]
+  },
+  {
+   "game_number": "1682",
+   "identifier": "cosmic-wilds-bingo",
+   "name": "Cosmic Wild Bingo",
+   "price": 3,
+   "overall_odds": 4.13,
+   "top_prize_display": "$50,000",
+   "on_sale": "2025-12-09",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/6ZUWnkm410EnzeJgm0EVNl/7c56f4cf1e24dc91d6055189c878d333/Cosmic_F_B.gif",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/3jVmUJ4HYYeIWtdFViIlvX/496adf988067b64041fb407122ce1fa9/NH1682WEB_GRAPHIC_v1_opt.jpg",
+   "page_url": "https://www.nhlottery.com/game/cosmic-wilds-bingo",
+   "tickets_printed": 1044300,
+   "tickets_remaining": 440711,
+   "percent_unsold": 42.2,
+   "prize_money_printed": 1963701,
+   "prize_money_unclaimed": 881664,
+   "ev_printed": 0.6268,
+   "ev_now": 0.6668,
+   "prizes": [
+    {
+     "prize": 50000,
+     "total": 4,
+     "remaining": 3,
+     "odds_printed": 261075.0,
+     "odds_live": 146903.67
+    },
+    {
+     "prize": 2300,
+     "total": 2,
+     "remaining": 1,
+     "odds_printed": 522150.0,
+     "odds_live": 440711.0
+    },
+    {
+     "prize": 2000,
+     "total": 4,
+     "remaining": 3,
+     "odds_printed": 261075.0,
+     "odds_live": 146903.67
+    },
+    {
+     "prize": 1000,
+     "total": 6,
+     "remaining": 2,
+     "odds_printed": 174050.0,
+     "odds_live": 220355.5
+    },
+    {
+     "prize": 500,
+     "total": 19,
+     "remaining": 6,
+     "odds_printed": 54963.16,
+     "odds_live": 73451.83
+    },
+    {
+     "prize": 300,
+     "total": 14,
+     "remaining": 6,
+     "odds_printed": 74592.86,
+     "odds_live": 73451.83
+    },
+    {
+     "prize": 250,
+     "total": 12,
+     "remaining": 5,
+     "odds_printed": 87025.0,
+     "odds_live": 88142.2
+    },
+    {
+     "prize": 200,
+     "total": 31,
+     "remaining": 10,
+     "odds_printed": 33687.1,
+     "odds_live": 44071.1
+    },
+    {
+     "prize": 150,
+     "total": 83,
+     "remaining": 30,
+     "odds_printed": 12581.93,
+     "odds_live": 14690.37
+    },
+    {
+     "prize": 100,
+     "total": 89,
+     "remaining": 27,
+     "odds_printed": 11733.71,
+     "odds_live": 16322.63
+    },
+    {
+     "prize": 90,
+     "total": 215,
+     "remaining": 77,
+     "odds_printed": 4857.21,
+     "odds_live": 5723.52
+    },
+    {
+     "prize": 75,
+     "total": 250,
+     "remaining": 99,
+     "odds_printed": 4177.2,
+     "odds_live": 4451.63
+    },
+    {
+     "prize": 50,
+     "total": 1682,
+     "remaining": 718,
+     "odds_printed": 620.87,
+     "odds_live": 613.8
+    },
+    {
+     "prize": 30,
+     "total": 4932,
+     "remaining": 1918,
+     "odds_printed": 211.74,
+     "odds_live": 229.78
+    },
+    {
+     "prize": 25,
+     "total": 7825,
+     "remaining": 3297,
+     "odds_printed": 133.46,
+     "odds_live": 133.67
+    },
+    {
+     "prize": 15,
+     "total": 13060,
+     "remaining": 5009,
+     "odds_printed": 79.96,
+     "odds_live": 87.98
+    },
+    {
+     "prize": 10,
+     "total": 31264,
+     "remaining": 13159,
+     "odds_printed": 33.4,
+     "odds_live": 33.49
+    },
+    {
+     "prize": 5,
+     "total": 73040,
+     "remaining": 31001,
+     "odds_printed": 14.3,
+     "odds_live": 14.22
+    },
+    {
+     "prize": 3,
+     "total": 120442,
+     "remaining": 51388,
+     "odds_printed": 8.67,
+     "odds_live": 8.58
+    }
+   ]
+  },
+  {
+   "game_number": "1674",
+   "identifier": "money-puzzle-multiplier",
+   "name": "Money Puzzle Multiplier",
+   "price": 3,
+   "overall_odds": 3.79,
+   "top_prize_display": "$50,000",
+   "on_sale": "2026-01-13",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/1Zz5basMTtqjUPZCIQe1za/df820ab421006b673967bed3fe4b903e/money-puzzle-multiplier-ticket.gif",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/1FBsxGhIGEzzztTMNcIV1U/527cd60b4f34f4d8844eae362c9b0958/NH-1674_Money_Puzzle_Multiplier_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/money-puzzle-multiplier",
+   "tickets_printed": 2080700,
+   "tickets_remaining": 1037843,
+   "percent_unsold": 49.88,
+   "prize_money_printed": 3922814,
+   "prize_money_unclaimed": 1923562,
+   "ev_printed": 0.6284,
+   "ev_now": 0.6178,
+   "prizes": [
+    {
+     "prize": 50000,
+     "total": 4,
+     "remaining": 2,
+     "odds_printed": 520175.0,
+     "odds_live": 518921.5
+    },
+    {
+     "prize": 1000,
+     "total": 47,
+     "remaining": 24,
+     "odds_printed": 44270.21,
+     "odds_live": 43243.46
+    },
+    {
+     "prize": 200,
+     "total": 160,
+     "remaining": 75,
+     "odds_printed": 13004.38,
+     "odds_live": 13837.91
+    },
+    {
+     "prize": 100,
+     "total": 1449,
+     "remaining": 681,
+     "odds_printed": 1435.96,
+     "odds_live": 1524.0
+    },
+    {
+     "prize": 80,
+     "total": 726,
+     "remaining": 347,
+     "odds_printed": 2865.98,
+     "odds_live": 2990.9
+    },
+    {
+     "prize": 60,
+     "total": 1158,
+     "remaining": 550,
+     "odds_printed": 1796.8,
+     "odds_live": 1886.99
+    },
+    {
+     "prize": 50,
+     "total": 1160,
+     "remaining": 557,
+     "odds_printed": 1793.71,
+     "odds_live": 1863.27
+    },
+    {
+     "prize": 45,
+     "total": 1167,
+     "remaining": 562,
+     "odds_printed": 1782.95,
+     "odds_live": 1846.7
+    },
+    {
+     "prize": 24,
+     "total": 1493,
+     "remaining": 716,
+     "odds_printed": 1393.64,
+     "odds_live": 1449.5
+    },
+    {
+     "prize": 20,
+     "total": 33236,
+     "remaining": 15605,
+     "odds_printed": 62.6,
+     "odds_live": 66.51
+    },
+    {
+     "prize": 18,
+     "total": 4117,
+     "remaining": 1931,
+     "odds_printed": 505.39,
+     "odds_live": 537.46
+    },
+    {
+     "prize": 12,
+     "total": 16629,
+     "remaining": 8138,
+     "odds_printed": 125.12,
+     "odds_live": 127.53
+    },
+    {
+     "prize": 9,
+     "total": 16673,
+     "remaining": 7933,
+     "odds_printed": 124.79,
+     "odds_live": 130.83
+    },
+    {
+     "prize": 6,
+     "total": 241667,
+     "remaining": 119999,
+     "odds_printed": 8.61,
+     "odds_live": 8.65
+    },
+    {
+     "prize": 3,
+     "total": 228858,
+     "remaining": 116491,
+     "odds_printed": 9.09,
+     "odds_live": 8.91
+    }
+   ]
+  },
+  {
+   "game_number": "1664",
+   "identifier": "20X-CASH-MULTIPLIER",
+   "name": "20X Cash Multiplier",
+   "price": 2,
+   "overall_odds": 4.37,
+   "top_prize_display": "$20,000",
+   "on_sale": "2025-05-05",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/2vyP4y68Ccn8CJwBD9WTIO/e673e6c453705a27338d249c6059dd6b/NH-1664_20X-CASH-MULTIPLIER_Detail.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/4UrGcoiaI8iFRpz33Rzimi/43dd2119614b2ce20fd39bb14e2d7039/NH-1664_20X_CASH_MULTIPLIER_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/20X-CASH-MULTIPLIER",
+   "tickets_printed": 1253550,
+   "tickets_remaining": 203825,
+   "percent_unsold": 16.26,
+   "prize_money_printed": 1639116,
+   "prize_money_unclaimed": 233839,
+   "ev_printed": 0.6538,
+   "ev_now": 0.5736,
+   "prizes": [
+    {
+     "prize": 20000,
+     "total": 4,
+     "remaining": 0,
+     "odds_printed": 313387.5,
+     "odds_live": null
+    },
+    {
+     "prize": 1000,
+     "total": 20,
+     "remaining": 4,
+     "odds_printed": 62677.5,
+     "odds_live": 50956.25
+    },
+    {
+     "prize": 200,
+     "total": 158,
+     "remaining": 21,
+     "odds_printed": 7933.86,
+     "odds_live": 9705.95
+    },
+    {
+     "prize": 100,
+     "total": 847,
+     "remaining": 126,
+     "odds_printed": 1479.99,
+     "odds_live": 1617.66
+    },
+    {
+     "prize": 50,
+     "total": 2638,
+     "remaining": 318,
+     "odds_printed": 475.19,
+     "odds_live": 640.96
+    },
+    {
+     "prize": 25,
+     "total": 5506,
+     "remaining": 687,
+     "odds_printed": 227.67,
+     "odds_live": 296.69
+    },
+    {
+     "prize": 20,
+     "total": 10460,
+     "remaining": 1464,
+     "odds_printed": 119.84,
+     "odds_live": 139.22
+    },
+    {
+     "prize": 10,
+     "total": 16708,
+     "remaining": 2438,
+     "odds_printed": 75.03,
+     "odds_live": 83.6
+    },
+    {
+     "prize": 5,
+     "total": 25064,
+     "remaining": 3908,
+     "odds_printed": 50.01,
+     "odds_live": 52.16
+    },
+    {
+     "prize": 4,
+     "total": 100242,
+     "remaining": 15683,
+     "odds_printed": 12.51,
+     "odds_live": 13.0
+    },
+    {
+     "prize": 2,
+     "total": 125349,
+     "remaining": 22016,
+     "odds_printed": 10.0,
+     "odds_live": 9.26
+    }
+   ]
+  },
+  {
+   "game_number": "1688",
+   "identifier": "7-11-21-Multiplier",
+   "name": "7•11•21 Multiplier",
+   "price": 2,
+   "overall_odds": 4.4,
+   "top_prize_display": "$20,000",
+   "on_sale": "2026-02-09",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/62CSsHHl08rxu5215lBTvj/6c72183b2e45e658412778ffd56513c0/nh_1688_7-11-21_multiplier_final.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/6nKjhlvbEC7sVW5SnIDS1r/0086b5c9c317a248026dd226f0abdd78/NH_1688_7-11-21_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/7-11-21-Multiplier",
+   "tickets_printed": 1124250,
+   "tickets_remaining": 454180,
+   "percent_unsold": 40.4,
+   "prize_money_printed": 1471160,
+   "prize_money_unclaimed": 560421,
+   "ev_printed": 0.6543,
+   "ev_now": 0.617,
+   "prizes": [
+    {
+     "prize": 20000,
+     "total": 5,
+     "remaining": 1,
+     "odds_printed": 224850.0,
+     "odds_live": 454180.0
+    },
+    {
+     "prize": 1000,
+     "total": 18,
+     "remaining": 5,
+     "odds_printed": 62458.33,
+     "odds_live": 90836.0
+    },
+    {
+     "prize": 200,
+     "total": 247,
+     "remaining": 109,
+     "odds_printed": 4551.62,
+     "odds_live": 4166.79
+    },
+    {
+     "prize": 100,
+     "total": 1324,
+     "remaining": 496,
+     "odds_printed": 849.13,
+     "odds_live": 915.69
+    },
+    {
+     "prize": 50,
+     "total": 2741,
+     "remaining": 1027,
+     "odds_printed": 410.16,
+     "odds_live": 442.24
+    },
+    {
+     "prize": 20,
+     "total": 11235,
+     "remaining": 4355,
+     "odds_printed": 100.07,
+     "odds_live": 104.29
+    },
+    {
+     "prize": 10,
+     "total": 7495,
+     "remaining": 2912,
+     "odds_printed": 150.0,
+     "odds_live": 155.97
+    },
+    {
+     "prize": 5,
+     "total": 30010,
+     "remaining": 11839,
+     "odds_printed": 37.46,
+     "odds_live": 38.36
+    },
+    {
+     "prize": 4,
+     "total": 89940,
+     "remaining": 36178,
+     "odds_printed": 12.5,
+     "odds_live": 12.55
+    },
+    {
+     "prize": 2,
+     "total": 112425,
+     "remaining": 46272,
+     "odds_printed": 10.0,
+     "odds_live": 9.82
+    }
+   ]
+  },
+  {
+   "game_number": "1698",
+   "identifier": "Double-Match-Doubler",
+   "name": "Double Match Doubler",
+   "price": 2,
+   "overall_odds": 4.45,
+   "top_prize_display": "$20,000",
+   "on_sale": "2026-05-04",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/1t7FtZ0C1VKIs5oOiV07te/0c7ae60185a54c194ff9ab1601951f82/NH-1698_DOUBLE_MATCH_DOUBLER_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/7MqaKF8Jx7om96Xx6sNyhx/dd8c88865590ded31488f0dce0acf878/NH-1698_DOUBLE_MATCH_DOUBLER_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Double-Match-Doubler",
+   "tickets_printed": 856500,
+   "tickets_remaining": 447988,
+   "percent_unsold": 52.3,
+   "prize_money_printed": 1122700,
+   "prize_money_unclaimed": 540652,
+   "ev_printed": 0.6554,
+   "ev_now": 0.6034,
+   "prizes": [
+    {
+     "prize": 20000,
+     "total": 4,
+     "remaining": 1,
+     "odds_printed": 214125.0,
+     "odds_live": 447988.0
+    },
+    {
+     "prize": 1000,
+     "total": 4,
+     "remaining": 2,
+     "odds_printed": 214125.0,
+     "odds_live": 223994.0
+    },
+    {
+     "prize": 500,
+     "total": 28,
+     "remaining": 15,
+     "odds_printed": 30589.29,
+     "odds_live": 29865.87
+    },
+    {
+     "prize": 100,
+     "total": 651,
+     "remaining": 284,
+     "odds_printed": 1315.67,
+     "odds_live": 1577.42
+    },
+    {
+     "prize": 50,
+     "total": 2274,
+     "remaining": 1071,
+     "odds_printed": 376.65,
+     "odds_live": 418.29
+    },
+    {
+     "prize": 30,
+     "total": 2692,
+     "remaining": 1290,
+     "odds_printed": 318.16,
+     "odds_live": 347.28
+    },
+    {
+     "prize": 20,
+     "total": 7129,
+     "remaining": 3395,
+     "odds_printed": 120.14,
+     "odds_live": 131.96
+    },
+    {
+     "prize": 10,
+     "total": 11437,
+     "remaining": 6038,
+     "odds_printed": 74.89,
+     "odds_live": 74.19
+    },
+    {
+     "prize": 5,
+     "total": 22840,
+     "remaining": 11282,
+     "odds_printed": 37.5,
+     "odds_live": 39.71
+    },
+    {
+     "prize": 4,
+     "total": 51388,
+     "remaining": 25511,
+     "odds_printed": 16.67,
+     "odds_live": 17.56
+    },
+    {
+     "prize": 2,
+     "total": 94219,
+     "remaining": 51884,
+     "odds_printed": 9.09,
+     "odds_live": 8.63
+    }
+   ]
+  },
+  {
+   "game_number": "1640",
+   "identifier": "electric-8s",
+   "name": "Electric 8s",
+   "price": 2,
+   "overall_odds": 4.48,
+   "top_prize_display": "$18,888",
+   "on_sale": "2024-07-28",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/6OTyXh661KsTRsEmvsJt4D/6cd8198a5f7caeeaeddd02536cf2d610/electric-8s-icon",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/6NYI1VtBToBZrevjaaDSxT/49b7daa2b426956e0f3923420dc50ba0/electric-8s-preview-icon",
+   "page_url": "https://www.nhlottery.com/game/electric-8s",
+   "tickets_printed": 1207500,
+   "tickets_remaining": 153435,
+   "percent_unsold": 12.71,
+   "prize_money_printed": 1582952,
+   "prize_money_unclaimed": 166340,
+   "ev_printed": 0.6555,
+   "ev_now": 0.5421,
+   "prizes": [
+    {
+     "prize": 18888,
+     "total": 4,
+     "remaining": 0,
+     "odds_printed": 301875.0,
+     "odds_live": null
+    },
+    {
+     "prize": 500,
+     "total": 80,
+     "remaining": 8,
+     "odds_printed": 15093.75,
+     "odds_live": 19179.38
+    },
+    {
+     "prize": 200,
+     "total": 123,
+     "remaining": 11,
+     "odds_printed": 9817.07,
+     "odds_live": 13948.64
+    },
+    {
+     "prize": 100,
+     "total": 508,
+     "remaining": 54,
+     "odds_printed": 2376.97,
+     "odds_live": 2841.39
+    },
+    {
+     "prize": 80,
+     "total": 505,
+     "remaining": 45,
+     "odds_printed": 2391.09,
+     "odds_live": 3409.67
+    },
+    {
+     "prize": 50,
+     "total": 2709,
+     "remaining": 235,
+     "odds_printed": 445.74,
+     "odds_live": 652.91
+    },
+    {
+     "prize": 30,
+     "total": 4045,
+     "remaining": 367,
+     "odds_printed": 298.52,
+     "odds_live": 418.08
+    },
+    {
+     "prize": 20,
+     "total": 12102,
+     "remaining": 1161,
+     "odds_printed": 99.78,
+     "odds_live": 132.16
+    },
+    {
+     "prize": 10,
+     "total": 12048,
+     "remaining": 1265,
+     "odds_printed": 100.22,
+     "odds_live": 121.29
+    },
+    {
+     "prize": 5,
+     "total": 48218,
+     "remaining": 5499,
+     "odds_printed": 25.04,
+     "odds_live": 27.9
+    },
+    {
+     "prize": 4,
+     "total": 36276,
+     "remaining": 4338,
+     "odds_printed": 33.29,
+     "odds_live": 35.37
+    },
+    {
+     "prize": 3,
+     "total": 40196,
+     "remaining": 5123,
+     "odds_printed": 30.04,
+     "odds_live": 29.95
+    },
+    {
+     "prize": 2,
+     "total": 112749,
+     "remaining": 16147,
+     "odds_printed": 10.71,
+     "odds_live": 9.5
+    }
+   ]
+  },
+  {
+   "game_number": "1705",
+   "identifier": "Fishing-For-$100s",
+   "name": "Fishing For $100s",
+   "price": 2,
+   "overall_odds": 4.37,
+   "top_prize_display": "$100",
+   "on_sale": "2026-07-27",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/46MyKZ6V6gq46sMds2zM9W/00b623c631ca25b38c4c906cf535ad0d/NH-1705_FISHING_FOR__100S_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/ygqYdSk362DUK5QAHnfLF/fcb6187cb637b1cf977e3e5092921b41/NH-1705_FISHING_FOR__100S_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Fishing-For-$100s",
+   "tickets_printed": 881400,
+   "tickets_remaining": 669344,
+   "percent_unsold": 75.94,
+   "prize_money_printed": 1154720,
+   "prize_money_unclaimed": 873772,
+   "ev_printed": 0.655,
+   "ev_now": 0.6527,
+   "prizes": [
+    {
+     "prize": 100,
+     "total": 4794,
+     "remaining": 3627,
+     "odds_printed": 183.85,
+     "odds_live": 184.54
+    },
+    {
+     "prize": 20,
+     "total": 4386,
+     "remaining": 3291,
+     "odds_printed": 200.96,
+     "odds_live": 203.39
+    },
+    {
+     "prize": 10,
+     "total": 5899,
+     "remaining": 4403,
+     "odds_printed": 149.42,
+     "odds_live": 152.02
+    },
+    {
+     "prize": 5,
+     "total": 17610,
+     "remaining": 13312,
+     "odds_printed": 50.05,
+     "odds_live": 50.28
+    },
+    {
+     "prize": 4,
+     "total": 51352,
+     "remaining": 38854,
+     "odds_printed": 17.16,
+     "odds_live": 17.23
+    },
+    {
+     "prize": 2,
+     "total": 117576,
+     "remaining": 89623,
+     "odds_printed": 7.5,
+     "odds_live": 7.47
+    }
+   ]
+  },
+  {
+   "game_number": "1672",
+   "identifier": "haunted-hundreds",
+   "name": "Haunted Hundreds",
+   "price": 2,
+   "overall_odds": 4.37,
+   "top_prize_display": "$100",
+   "on_sale": "2025-08-28",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/1z4VvA9fDXk8uV08nyp81g/361e960b4b5e08747906742a531dfda7/NH-1672_HAUNTED_HUNDREDS_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/sTqrCk8s9xzRoOyMwPreK/3df1828bf0bea0dc46004d0c85221b03/NH-1672_HAUNTED_HUNDREDS_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/haunted-hundreds",
+   "tickets_printed": 492750,
+   "tickets_remaining": 71256,
+   "percent_unsold": 14.46,
+   "prize_money_printed": 647260,
+   "prize_money_unclaimed": 75436,
+   "ev_printed": 0.6568,
+   "ev_now": 0.5293,
+   "prizes": [
+    {
+     "prize": 100,
+     "total": 2693,
+     "remaining": 242,
+     "odds_printed": 182.97,
+     "odds_live": 294.45
+    },
+    {
+     "prize": 20,
+     "total": 2473,
+     "remaining": 234,
+     "odds_printed": 199.25,
+     "odds_live": 304.51
+    },
+    {
+     "prize": 10,
+     "total": 3272,
+     "remaining": 384,
+     "odds_printed": 150.6,
+     "odds_live": 185.56
+    },
+    {
+     "prize": 5,
+     "total": 9844,
+     "remaining": 1342,
+     "odds_printed": 50.06,
+     "odds_live": 53.1
+    },
+    {
+     "prize": 4,
+     "total": 28823,
+     "remaining": 3902,
+     "odds_printed": 17.1,
+     "odds_live": 18.26
+    },
+    {
+     "prize": 2,
+     "total": 65634,
+     "remaining": 10199,
+     "odds_printed": 7.51,
+     "odds_live": 6.99
+    }
+   ]
+  },
+  {
+   "game_number": "1675",
+   "identifier": "iheartbacon",
+   "name": "I Heart Bacon",
+   "price": 2,
+   "overall_odds": 4.31,
+   "top_prize_display": "$10,000",
+   "on_sale": "2025-09-29",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/668oQoe78nY1XQLuiLYEiy/d934abee6d5daddd3576813314ed5b63/NH1675_I_HEART_BACON_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/dn7cRXKakT6p4GPQ3RqDT/e8eac7139ac119bede2083b53f146edc/NH1675_I_HEART_BACON_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/iheartbacon",
+   "tickets_printed": 753000,
+   "tickets_remaining": 238214,
+   "percent_unsold": 31.64,
+   "prize_money_printed": 983010,
+   "prize_money_unclaimed": 281853,
+   "ev_printed": 0.6527,
+   "ev_now": 0.5916,
+   "prizes": [
+    {
+     "prize": 10000,
+     "total": 4,
+     "remaining": 1,
+     "odds_printed": 188250.0,
+     "odds_live": 238214.0
+    },
+    {
+     "prize": 1000,
+     "total": 26,
+     "remaining": 4,
+     "odds_printed": 28961.54,
+     "odds_live": 59553.5
+    },
+    {
+     "prize": 200,
+     "total": 88,
+     "remaining": 12,
+     "odds_printed": 8556.82,
+     "odds_live": 19851.17
+    },
+    {
+     "prize": 100,
+     "total": 747,
+     "remaining": 189,
+     "odds_printed": 1008.03,
+     "odds_live": 1260.39
+    },
+    {
+     "prize": 50,
+     "total": 631,
+     "remaining": 151,
+     "odds_printed": 1193.34,
+     "odds_live": 1577.58
+    },
+    {
+     "prize": 20,
+     "total": 12568,
+     "remaining": 3429,
+     "odds_printed": 59.91,
+     "odds_live": 69.47
+    },
+    {
+     "prize": 10,
+     "total": 5003,
+     "remaining": 1429,
+     "odds_printed": 150.51,
+     "odds_live": 166.7
+    },
+    {
+     "prize": 5,
+     "total": 20096,
+     "remaining": 6275,
+     "odds_printed": 37.47,
+     "odds_live": 37.96
+    },
+    {
+     "prize": 4,
+     "total": 60139,
+     "remaining": 18612,
+     "odds_printed": 12.52,
+     "odds_live": 12.8
+    },
+    {
+     "prize": 2,
+     "total": 75367,
+     "remaining": 25155,
+     "odds_printed": 9.99,
+     "odds_live": 9.47
+    }
+   ]
+  },
+  {
+   "game_number": "1642",
+   "identifier": "lucky_roll_bonus",
+   "name": "Lucky Roll Bonus",
+   "price": 2,
+   "overall_odds": 4.51,
+   "top_prize_display": "$20,000",
+   "on_sale": "2025-03-03",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/3FEHmMhHIxOB7WV91hwWkw/6c252e1afe7451e88a2a173910ecb441/NH_1642_Lucky_Roll_Bonus_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/OwXvpJHOrQ7V6es08SAPZ/57ff8edeb87d5d46027a789cb7c10f87/NH_1642_Lucky_Roll_Bonus_ITVM.jpg",
+   "page_url": "https://www.nhlottery.com/game/lucky_roll_bonus",
+   "tickets_printed": 1504050,
+   "tickets_remaining": 826748,
+   "percent_unsold": 54.97,
+   "prize_money_printed": 1966928,
+   "prize_money_unclaimed": 1083116,
+   "ev_printed": 0.6539,
+   "ev_now": 0.655,
+   "prizes": [
+    {
+     "prize": 20000,
+     "total": 4,
+     "remaining": 3,
+     "odds_printed": 376012.5,
+     "odds_live": 275582.67
+    },
+    {
+     "prize": 500,
+     "total": 84,
+     "remaining": 50,
+     "odds_printed": 17905.36,
+     "odds_live": 16534.96
+    },
+    {
+     "prize": 200,
+     "total": 153,
+     "remaining": 75,
+     "odds_printed": 9830.39,
+     "odds_live": 11023.31
+    },
+    {
+     "prize": 100,
+     "total": 1343,
+     "remaining": 715,
+     "odds_printed": 1119.92,
+     "odds_live": 1156.29
+    },
+    {
+     "prize": 50,
+     "total": 4129,
+     "remaining": 2151,
+     "odds_printed": 364.26,
+     "odds_live": 384.36
+    },
+    {
+     "prize": 30,
+     "total": 4332,
+     "remaining": 2302,
+     "odds_printed": 347.2,
+     "odds_live": 359.14
+    },
+    {
+     "prize": 20,
+     "total": 12514,
+     "remaining": 6815,
+     "odds_printed": 120.19,
+     "odds_live": 121.31
+    },
+    {
+     "prize": 10,
+     "total": 15063,
+     "remaining": 8048,
+     "odds_printed": 99.85,
+     "odds_live": 102.73
+    },
+    {
+     "prize": 5,
+     "total": 60194,
+     "remaining": 32920,
+     "odds_printed": 24.99,
+     "odds_live": 25.11
+    },
+    {
+     "prize": 4,
+     "total": 85259,
+     "remaining": 46614,
+     "odds_printed": 17.64,
+     "odds_live": 17.74
+    },
+    {
+     "prize": 2,
+     "total": 150351,
+     "remaining": 83585,
+     "odds_printed": 10.0,
+     "odds_live": 9.89
+    }
+   ]
+  },
+  {
+   "game_number": "1644",
+   "identifier": "money-vault-multiplier",
+   "name": "Money Vault Multiplier",
+   "price": 2,
+   "overall_odds": 4.47,
+   "top_prize_display": "$20,000",
+   "on_sale": "2024-09-30",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/70vvGanFRI1YURhBNMXOi3/b70b292e5e0c1c95d9bb936eac3da48c/money-vault-multiplier-icon",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/3dNbeqnsljUzUFkFOAyF9l/d85ccedc63d36e7b803ad1b57d770d98/money-vault-multiplier-preview-icon",
+   "page_url": "https://www.nhlottery.com/game/money-vault-multiplier",
+   "tickets_printed": 1214700,
+   "tickets_remaining": 348348,
+   "percent_unsold": 28.68,
+   "prize_money_printed": 1591786,
+   "prize_money_unclaimed": 435125,
+   "ev_printed": 0.6552,
+   "ev_now": 0.6246,
+   "prizes": [
+    {
+     "prize": 20000,
+     "total": 4,
+     "remaining": 1,
+     "odds_printed": 303675.0,
+     "odds_live": 348348.0
+    },
+    {
+     "prize": 1000,
+     "total": 15,
+     "remaining": 4,
+     "odds_printed": 80980.0,
+     "odds_live": 87087.0
+    },
+    {
+     "prize": 500,
+     "total": 40,
+     "remaining": 11,
+     "odds_printed": 30367.5,
+     "odds_live": 31668.0
+    },
+    {
+     "prize": 100,
+     "total": 1125,
+     "remaining": 279,
+     "odds_printed": 1079.73,
+     "odds_live": 1248.56
+    },
+    {
+     "prize": 50,
+     "total": 2269,
+     "remaining": 596,
+     "odds_printed": 535.35,
+     "odds_live": 584.48
+    },
+    {
+     "prize": 30,
+     "total": 3364,
+     "remaining": 840,
+     "odds_printed": 361.09,
+     "odds_live": 414.7
+    },
+    {
+     "prize": 20,
+     "total": 12139,
+     "remaining": 3217,
+     "odds_printed": 100.07,
+     "odds_live": 108.28
+    },
+    {
+     "prize": 10,
+     "total": 12155,
+     "remaining": 3290,
+     "odds_printed": 99.93,
+     "odds_live": 105.88
+    },
+    {
+     "prize": 5,
+     "total": 48588,
+     "remaining": 13469,
+     "odds_printed": 25.0,
+     "odds_live": 25.86
+    },
+    {
+     "prize": 4,
+     "total": 78985,
+     "remaining": 22763,
+     "odds_printed": 15.38,
+     "odds_live": 15.3
+    },
+    {
+     "prize": 2,
+     "total": 113353,
+     "remaining": 33544,
+     "odds_printed": 10.72,
+     "odds_live": 10.38
+    }
+   ]
+  },
+  {
+   "game_number": "1678",
+   "identifier": "nutcracker-cash",
+   "name": "Nutcracker Cash",
+   "price": 2,
+   "overall_odds": 4.51,
+   "top_prize_display": "$10,000",
+   "on_sale": "2025-11-03",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/2oqimy2Vw3NF2ompRvJLnb/2897e426fed35f8443ddf0b00efccd19/NH-1678_NUTCRACKER_CASH__FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/2G9wil6VrNuzKqMUAZQrj6/a5800709bb97cd841831dc598c5aa51d/NH-1678_NUTCRACKER_CASH_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/nutcracker-cash",
+   "tickets_printed": 848100,
+   "tickets_remaining": 223265,
+   "percent_unsold": 26.33,
+   "prize_money_printed": 1111016,
+   "prize_money_unclaimed": 254909,
+   "ev_printed": 0.655,
+   "ev_now": 0.5709,
+   "prizes": [
+    {
+     "prize": 10000,
+     "total": 4,
+     "remaining": 1,
+     "odds_printed": 212025.0,
+     "odds_live": 223265.0
+    },
+    {
+     "prize": 500,
+     "total": 72,
+     "remaining": 10,
+     "odds_printed": 11779.17,
+     "odds_live": 22326.5
+    },
+    {
+     "prize": 200,
+     "total": 81,
+     "remaining": 17,
+     "odds_printed": 10470.37,
+     "odds_live": 13133.24
+    },
+    {
+     "prize": 100,
+     "total": 735,
+     "remaining": 117,
+     "odds_printed": 1153.88,
+     "odds_live": 1908.25
+    },
+    {
+     "prize": 50,
+     "total": 2064,
+     "remaining": 359,
+     "odds_printed": 410.9,
+     "odds_live": 621.91
+    },
+    {
+     "prize": 30,
+     "total": 2816,
+     "remaining": 560,
+     "odds_printed": 301.17,
+     "odds_live": 398.69
+    },
+    {
+     "prize": 20,
+     "total": 7059,
+     "remaining": 1465,
+     "odds_printed": 120.14,
+     "odds_live": 152.4
+    },
+    {
+     "prize": 10,
+     "total": 8484,
+     "remaining": 1998,
+     "odds_printed": 99.96,
+     "odds_live": 111.74
+    },
+    {
+     "prize": 5,
+     "total": 33930,
+     "remaining": 8553,
+     "odds_printed": 25.0,
+     "odds_live": 26.1
+    },
+    {
+     "prize": 4,
+     "total": 48109,
+     "remaining": 12564,
+     "odds_printed": 17.63,
+     "odds_live": 17.77
+    },
+    {
+     "prize": 2,
+     "total": 84765,
+     "remaining": 23879,
+     "odds_printed": 10.01,
+     "odds_live": 9.35
+    }
+   ]
+  },
+  {
+   "game_number": "1667",
+   "identifier": "Quick-Deal",
+   "name": "Quick Deal",
+   "price": 2,
+   "overall_odds": 4.48,
+   "top_prize_display": "$20,000",
+   "on_sale": "2025-06-30",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/3DXsHsGdEB8DgdSZCzasWW/98b6b5141984ed0e690956bc6df83ef2/NH-_1667_QUICK_DEAL_Detail.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/4OpRRrqwpuW3T37EG1BGCj/f9bfcc299b86216d06a1663bc89ac855/NH-1667_QUICK_DEAL_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Quick-Deal",
+   "tickets_printed": 1217550,
+   "tickets_remaining": 600198,
+   "percent_unsold": 49.3,
+   "prize_money_printed": 1594049,
+   "prize_money_unclaimed": 769786,
+   "ev_printed": 0.6546,
+   "ev_now": 0.6413,
+   "prizes": [
+    {
+     "prize": 20000,
+     "total": 4,
+     "remaining": 2,
+     "odds_printed": 304387.5,
+     "odds_live": 300099.0
+    },
+    {
+     "prize": 500,
+     "total": 105,
+     "remaining": 46,
+     "odds_printed": 11595.71,
+     "odds_live": 13047.78
+    },
+    {
+     "prize": 100,
+     "total": 1405,
+     "remaining": 660,
+     "odds_printed": 866.58,
+     "odds_live": 909.39
+    },
+    {
+     "prize": 50,
+     "total": 2557,
+     "remaining": 1182,
+     "odds_printed": 476.16,
+     "odds_live": 507.78
+    },
+    {
+     "prize": 20,
+     "total": 12179,
+     "remaining": 5732,
+     "odds_printed": 99.97,
+     "odds_live": 104.71
+    },
+    {
+     "prize": 10,
+     "total": 12176,
+     "remaining": 5871,
+     "odds_printed": 100.0,
+     "odds_live": 102.23
+    },
+    {
+     "prize": 5,
+     "total": 113623,
+     "remaining": 55744,
+     "odds_printed": 10.72,
+     "odds_live": 10.77
+    },
+    {
+     "prize": 2,
+     "total": 129872,
+     "remaining": 64808,
+     "odds_printed": 9.38,
+     "odds_live": 9.26
+    }
+   ]
+  },
+  {
+   "game_number": "1684",
+   "identifier": "VIP-Double-Bonus",
+   "name": "VIP Double Bonus",
+   "price": 2,
+   "overall_odds": 4.46,
+   "top_prize_display": "$20,000",
+   "on_sale": "2025-12-29",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/yUpKmFnhSvEIQ3xWSeaVT/ccbacc7c4dea2918a2fc59c280d1cd33/NH-1684-VIP-DOUBLE-BONUS_FINAL.gif",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/7dULhlqWGK3XjaEsIZzIdI/094086b10d3f7d1babc30fb05160f291/NH_1684_VIP_DOUBLE_BONUS_WEB_FINAL.png",
+   "page_url": "https://www.nhlottery.com/game/VIP-Double-Bonus",
+   "tickets_printed": 874950,
+   "tickets_remaining": 342218,
+   "percent_unsold": 39.11,
+   "prize_money_printed": 1141715,
+   "prize_money_unclaimed": 442759,
+   "ev_printed": 0.6524,
+   "ev_now": 0.6469,
+   "prizes": [
+    {
+     "prize": 20000,
+     "total": 4,
+     "remaining": 2,
+     "odds_printed": 218737.5,
+     "odds_live": 171109.0
+    },
+    {
+     "prize": 1000,
+     "total": 14,
+     "remaining": 5,
+     "odds_printed": 62496.43,
+     "odds_live": 68443.6
+    },
+    {
+     "prize": 200,
+     "total": 66,
+     "remaining": 23,
+     "odds_printed": 13256.82,
+     "odds_live": 14879.04
+    },
+    {
+     "prize": 100,
+     "total": 676,
+     "remaining": 253,
+     "odds_printed": 1294.3,
+     "odds_live": 1352.64
+    },
+    {
+     "prize": 50,
+     "total": 2301,
+     "remaining": 818,
+     "odds_printed": 380.25,
+     "odds_live": 418.36
+    },
+    {
+     "prize": 25,
+     "total": 3743,
+     "remaining": 1394,
+     "odds_printed": 233.76,
+     "odds_live": 245.49
+    },
+    {
+     "prize": 20,
+     "total": 5833,
+     "remaining": 2072,
+     "odds_printed": 150.0,
+     "odds_live": 165.16
+    },
+    {
+     "prize": 10,
+     "total": 10177,
+     "remaining": 3855,
+     "odds_printed": 85.97,
+     "odds_live": 88.77
+    },
+    {
+     "prize": 5,
+     "total": 17496,
+     "remaining": 6593,
+     "odds_printed": 50.01,
+     "odds_live": 51.91
+    },
+    {
+     "prize": 4,
+     "total": 70104,
+     "remaining": 27776,
+     "odds_printed": 12.48,
+     "odds_live": 12.32
+    },
+    {
+     "prize": 2,
+     "total": 85982,
+     "remaining": 34025,
+     "odds_printed": 10.18,
+     "odds_live": 10.06
+    }
+   ]
+  },
+  {
+   "game_number": "1718",
+   "identifier": "Win-It-All",
+   "name": "Win It All",
+   "price": 2,
+   "overall_odds": 4.39,
+   "top_prize_display": "$20,000",
+   "on_sale": "2026-09-03",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/4TX0upgbWyxHCumX2KpXZT/cf8a3053fe69ae35d58021c79c4ccc3a/NH_1718_Win_It_All_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/17KgYimqbnIbifboMW3fnx/ac9a72512f03de0bbbccb6dc9f1fc373/NH_1718_Win_It_All_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Win-It-All",
+   "tickets_printed": 1111650,
+   "tickets_remaining": 1036267,
+   "percent_unsold": 93.22,
+   "prize_money_printed": 1455972,
+   "prize_money_unclaimed": 1341242,
+   "ev_printed": 0.6549,
+   "ev_now": 0.6472,
+   "prizes": [
+    {
+     "prize": 20000,
+     "total": 4,
+     "remaining": 3,
+     "odds_printed": 277912.5,
+     "odds_live": 345422.33
+    },
+    {
+     "prize": 1000,
+     "total": 8,
+     "remaining": 8,
+     "odds_printed": 138956.25,
+     "odds_live": 129533.38
+    },
+    {
+     "prize": 200,
+     "total": 93,
+     "remaining": 88,
+     "odds_printed": 11953.23,
+     "odds_live": 11775.76
+    },
+    {
+     "prize": 100,
+     "total": 743,
+     "remaining": 686,
+     "odds_printed": 1496.16,
+     "odds_live": 1510.59
+    },
+    {
+     "prize": 50,
+     "total": 1877,
+     "remaining": 1737,
+     "odds_printed": 592.25,
+     "odds_live": 596.58
+    },
+    {
+     "prize": 40,
+     "total": 1084,
+     "remaining": 1005,
+     "odds_printed": 1025.51,
+     "odds_live": 1031.11
+    },
+    {
+     "prize": 30,
+     "total": 2850,
+     "remaining": 2655,
+     "odds_printed": 390.05,
+     "odds_live": 390.31
+    },
+    {
+     "prize": 20,
+     "total": 11114,
+     "remaining": 10365,
+     "odds_printed": 100.02,
+     "odds_live": 99.98
+    },
+    {
+     "prize": 10,
+     "total": 18530,
+     "remaining": 17230,
+     "odds_printed": 59.99,
+     "odds_live": 60.14
+    },
+    {
+     "prize": 5,
+     "total": 40756,
+     "remaining": 37886,
+     "odds_printed": 27.28,
+     "odds_live": 27.35
+    },
+    {
+     "prize": 4,
+     "total": 44478,
+     "remaining": 41399,
+     "odds_printed": 24.99,
+     "odds_live": 25.03
+    },
+    {
+     "prize": 2,
+     "total": 131545,
+     "remaining": 122858,
+     "odds_printed": 8.45,
+     "odds_live": 8.43
+    }
+   ]
+  },
+  {
+   "game_number": "1677",
+   "identifier": "Frostys-50s",
+   "name": "Frosty's $50's",
+   "price": 1,
+   "overall_odds": 4.75,
+   "top_prize_display": "$50",
+   "on_sale": "2025-11-03",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/4QareI12NaXz9KTslIOCUi/0182a8dc8ab88698bad056f7d54ce91b/NH-1677_FINAL.gif",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/6QvoDjcevun1hetA0BDuiK/69619dc7f71c69e82a584a048330b649/NH-1677_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Frostys-50s",
+   "tickets_printed": 858000,
+   "tickets_remaining": 260872,
+   "percent_unsold": 30.4,
+   "prize_money_printed": 531300,
+   "prize_money_unclaimed": 132364,
+   "ev_printed": 0.6192,
+   "ev_now": 0.5074,
+   "prizes": [
+    {
+     "prize": 50,
+     "total": 3306,
+     "remaining": 598,
+     "odds_printed": 259.53,
+     "odds_live": 436.24
+    },
+    {
+     "prize": 20,
+     "total": 1426,
+     "remaining": 286,
+     "odds_printed": 601.68,
+     "odds_live": 912.14
+    },
+    {
+     "prize": 10,
+     "total": 4278,
+     "remaining": 941,
+     "odds_printed": 200.56,
+     "odds_live": 277.23
+    },
+    {
+     "prize": 5,
+     "total": 17186,
+     "remaining": 4503,
+     "odds_printed": 49.92,
+     "odds_live": 57.93
+    },
+    {
+     "prize": 2,
+     "total": 54349,
+     "remaining": 16231,
+     "odds_printed": 15.79,
+     "odds_live": 16.07
+    },
+    {
+     "prize": 1,
+     "total": 100072,
+     "remaining": 32357,
+     "odds_printed": 8.57,
+     "odds_live": 8.06
+    }
+   ]
+  },
+  {
+   "game_number": "1630",
+   "identifier": "match_2_win",
+   "name": "Match 2 Win",
+   "price": 1,
+   "overall_odds": 4.73,
+   "top_prize_display": "$500",
+   "on_sale": "2025-02-03",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/12NCDPfuOSGwsP802N47hE/04aad9c2d3431b1c84f8e6852b147ec0/NH_1630_Match_2_Win_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/12NCDPfuOSGwsP802N47hE/04aad9c2d3431b1c84f8e6852b147ec0/NH_1630_Match_2_Win_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/match_2_win",
+   "tickets_printed": 1471950,
+   "tickets_remaining": 687238,
+   "percent_unsold": 46.69,
+   "prize_money_printed": 914021,
+   "prize_money_unclaimed": 417778,
+   "ev_printed": 0.621,
+   "ev_now": 0.6079,
+   "prizes": [
+    {
+     "prize": 500,
+     "total": 5,
+     "remaining": 2,
+     "odds_printed": 294390.0,
+     "odds_live": 343619.0
+    },
+    {
+     "prize": 100,
+     "total": 707,
+     "remaining": 287,
+     "odds_printed": 2081.97,
+     "odds_live": 2394.56
+    },
+    {
+     "prize": 50,
+     "total": 1709,
+     "remaining": 708,
+     "odds_printed": 861.29,
+     "odds_live": 970.68
+    },
+    {
+     "prize": 20,
+     "total": 4895,
+     "remaining": 2269,
+     "odds_printed": 300.7,
+     "odds_live": 302.88
+    },
+    {
+     "prize": 10,
+     "total": 14734,
+     "remaining": 7211,
+     "odds_printed": 99.9,
+     "odds_live": 95.3
+    },
+    {
+     "prize": 5,
+     "total": 7364,
+     "remaining": 3263,
+     "odds_printed": 199.88,
+     "odds_live": 210.62
+    },
+    {
+     "prize": 4,
+     "total": 24521,
+     "remaining": 11023,
+     "odds_printed": 60.03,
+     "odds_live": 62.35
+    },
+    {
+     "prize": 2,
+     "total": 117733,
+     "remaining": 54141,
+     "odds_printed": 12.5,
+     "odds_live": 12.69
+    },
+    {
+     "prize": 1,
+     "total": 139761,
+     "remaining": 66499,
+     "odds_printed": 10.53,
+     "odds_live": 10.33
+    }
+   ]
+  },
+  {
+   "game_number": "1701",
+   "identifier": "Moose-Money-Tripler",
+   "name": "Moo$e Money Tripler",
+   "price": 1,
+   "overall_odds": 4.69,
+   "top_prize_display": "$500",
+   "on_sale": "2026-06-15",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/77E6SIpFIsecmXwb2NYQ7l/206ecdcd31a79d2407045176d926dd58/NH-1701_MOO_E_MONEY_TRIPLER_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/7DZw9HCyBGYPguEoAc5zXF/57b2664e49ac753c43a67577c7dba84a/NH-1701_MOO_E_MONEY_TRIPLER_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Moose-Money-Tripler",
+   "tickets_printed": 988500,
+   "tickets_remaining": 616612,
+   "percent_unsold": 62.38,
+   "prize_money_printed": 612028,
+   "prize_money_unclaimed": 371035,
+   "ev_printed": 0.6191,
+   "ev_now": 0.6017,
+   "prizes": [
+    {
+     "prize": 500,
+     "total": 5,
+     "remaining": 2,
+     "odds_printed": 197700.0,
+     "odds_live": 308306.0
+    },
+    {
+     "prize": 100,
+     "total": 112,
+     "remaining": 64,
+     "odds_printed": 8825.89,
+     "odds_live": 9634.56
+    },
+    {
+     "prize": 90,
+     "total": 155,
+     "remaining": 90,
+     "odds_printed": 6377.42,
+     "odds_live": 6851.24
+    },
+    {
+     "prize": 60,
+     "total": 952,
+     "remaining": 551,
+     "odds_printed": 1038.34,
+     "odds_live": 1119.08
+    },
+    {
+     "prize": 30,
+     "total": 1392,
+     "remaining": 837,
+     "odds_printed": 710.13,
+     "odds_live": 736.69
+    },
+    {
+     "prize": 20,
+     "total": 1243,
+     "remaining": 707,
+     "odds_printed": 795.25,
+     "odds_live": 872.15
+    },
+    {
+     "prize": 18,
+     "total": 2526,
+     "remaining": 1481,
+     "odds_printed": 391.33,
+     "odds_live": 416.35
+    },
+    {
+     "prize": 9,
+     "total": 6590,
+     "remaining": 3944,
+     "odds_printed": 150.0,
+     "odds_live": 156.34
+    },
+    {
+     "prize": 6,
+     "total": 6590,
+     "remaining": 4013,
+     "odds_printed": 150.0,
+     "odds_live": 153.65
+    },
+    {
+     "prize": 3,
+     "total": 39540,
+     "remaining": 24242,
+     "odds_printed": 25.0,
+     "odds_live": 25.44
+    },
+    {
+     "prize": 2,
+     "total": 46130,
+     "remaining": 28782,
+     "odds_printed": 21.43,
+     "odds_live": 21.42
+    },
+    {
+     "prize": 1,
+     "total": 105440,
+     "remaining": 66703,
+     "odds_printed": 9.38,
+     "odds_live": 9.24
+    }
+   ]
+  },
+  {
+   "game_number": "1691",
+   "identifier": "Quick-$25s",
+   "name": "Quick $25's",
+   "price": 1,
+   "overall_odds": 4.75,
+   "top_prize_display": "$25",
+   "on_sale": "2026-02-09",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/FQ3fOf5ANWZ4eVsjTsVxC/72a9790e205eac39f993cbfb4b9fa608/NH_1691_Quick_25s_FINAL.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/7fPMyZSODByI4smWr66RxN/27cbee7918ffbcd3ef335cccc7756fb8/NH_1691_Quick_25s_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Quick-$25s",
+   "tickets_printed": 1008000,
+   "tickets_remaining": 574348,
+   "percent_unsold": 56.98,
+   "prize_money_printed": 625250,
+   "prize_money_unclaimed": 346303,
+   "ev_printed": 0.6203,
+   "ev_now": 0.6029,
+   "prizes": [
+    {
+     "prize": 25,
+     "total": 8882,
+     "remaining": 4761,
+     "odds_printed": 113.49,
+     "odds_live": 120.64
+    },
+    {
+     "prize": 10,
+     "total": 6720,
+     "remaining": 3656,
+     "odds_printed": 150.0,
+     "odds_live": 157.1
+    },
+    {
+     "prize": 5,
+     "total": 6720,
+     "remaining": 3701,
+     "odds_printed": 150.0,
+     "odds_live": 155.19
+    },
+    {
+     "prize": 4,
+     "total": 15120,
+     "remaining": 8451,
+     "odds_printed": 66.67,
+     "odds_live": 67.96
+    },
+    {
+     "prize": 2,
+     "total": 67182,
+     "remaining": 38080,
+     "odds_printed": 15.0,
+     "odds_live": 15.08
+    },
+    {
+     "prize": 1,
+     "total": 107556,
+     "remaining": 62249,
+     "odds_printed": 9.37,
+     "odds_live": 9.23
+    }
+   ]
+  },
+  {
+   "game_number": "1711",
+   "identifier": "Trick-or-Treat",
+   "name": "Trick or Treat",
+   "price": 1,
+   "overall_odds": 4.77,
+   "top_prize_display": "$500",
+   "on_sale": "2026-09-03",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/6NdsraBf9MG6RiqaU4AmWW/3d955890ccda4dce7ac23e6a319cecf6/NH1711_trick_or_treat_2s_per_ticket.gif",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/7sHK27zy4BthWzmE5zjrb/2c14dfad4282999260d3d171d75621d0/NH_1711_Trick_or_Treat_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/Trick-or-Treat",
+   "tickets_printed": 502950,
+   "tickets_remaining": 436927,
+   "percent_unsold": 86.87,
+   "prize_money_printed": 312794,
+   "prize_money_unclaimed": 269156,
+   "ev_printed": 0.6219,
+   "ev_now": 0.616,
+   "prizes": [
+    {
+     "prize": 500,
+     "total": 5,
+     "remaining": 4,
+     "odds_printed": 100590.0,
+     "odds_live": 109231.75
+    },
+    {
+     "prize": 100,
+     "total": 224,
+     "remaining": 191,
+     "odds_printed": 2245.31,
+     "odds_live": 2287.58
+    },
+    {
+     "prize": 50,
+     "total": 543,
+     "remaining": 462,
+     "odds_printed": 926.24,
+     "odds_live": 945.73
+    },
+    {
+     "prize": 20,
+     "total": 1637,
+     "remaining": 1385,
+     "odds_printed": 307.24,
+     "odds_live": 315.47
+    },
+    {
+     "prize": 10,
+     "total": 5870,
+     "remaining": 5036,
+     "odds_printed": 85.68,
+     "odds_live": 86.76
+    },
+    {
+     "prize": 5,
+     "total": 7542,
+     "remaining": 6484,
+     "odds_printed": 66.69,
+     "odds_live": 67.39
+    },
+    {
+     "prize": 2,
+     "total": 41909,
+     "remaining": 36382,
+     "odds_printed": 12.0,
+     "odds_live": 12.01
+    },
+    {
+     "prize": 1,
+     "total": 47776,
+     "remaining": 41712,
+     "odds_printed": 10.53,
+     "odds_live": 10.47
+    }
+   ]
+  },
+  {
+   "game_number": "1629",
+   "identifier": "triple-it!",
+   "name": "Triple It!",
+   "price": 1,
+   "overall_odds": 4.67,
+   "top_prize_display": "$500",
+   "on_sale": "2024-07-28",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/36drpPIUD0OjaDz8i4T5u4/4b401912ab15ce491fd13a854c625f7a/triple-it_-icon",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/1idTmOsfZ8pXQKkDhGnCTQ/0ca4aebaefc3275b0d03395fa61a72fc/triple-it_-preview-icon",
+   "page_url": "https://www.nhlottery.com/game/triple-it!",
+   "tickets_printed": 1452300,
+   "tickets_remaining": 251782,
+   "percent_unsold": 17.34,
+   "prize_money_printed": 901240,
+   "prize_money_unclaimed": 133927,
+   "ev_printed": 0.6206,
+   "ev_now": 0.5319,
+   "prizes": [
+    {
+     "prize": 500,
+     "total": 6,
+     "remaining": 3,
+     "odds_printed": 242050.0,
+     "odds_live": 83927.33
+    },
+    {
+     "prize": 150,
+     "total": 24,
+     "remaining": 4,
+     "odds_printed": 60512.5,
+     "odds_live": 62945.5
+    },
+    {
+     "prize": 90,
+     "total": 489,
+     "remaining": 52,
+     "odds_printed": 2969.94,
+     "odds_live": 4841.96
+    },
+    {
+     "prize": 50,
+     "total": 1942,
+     "remaining": 150,
+     "odds_printed": 747.84,
+     "odds_live": 1678.55
+    },
+    {
+     "prize": 30,
+     "total": 2177,
+     "remaining": 268,
+     "odds_printed": 667.11,
+     "odds_live": 939.49
+    },
+    {
+     "prize": 15,
+     "total": 3926,
+     "remaining": 536,
+     "odds_printed": 369.92,
+     "odds_live": 469.74
+    },
+    {
+     "prize": 10,
+     "total": 7251,
+     "remaining": 894,
+     "odds_printed": 200.29,
+     "odds_live": 281.64
+    },
+    {
+     "prize": 6,
+     "total": 9687,
+     "remaining": 1671,
+     "odds_printed": 149.92,
+     "odds_live": 150.68
+    },
+    {
+     "prize": 5,
+     "total": 14513,
+     "remaining": 1942,
+     "odds_printed": 100.07,
+     "odds_live": 129.65
+    },
+    {
+     "prize": 3,
+     "total": 38695,
+     "remaining": 6851,
+     "odds_printed": 37.53,
+     "odds_live": 36.75
+    },
+    {
+     "prize": 2,
+     "total": 77564,
+     "remaining": 12758,
+     "odds_printed": 18.72,
+     "odds_live": 19.74
+    },
+    {
+     "prize": 1,
+     "total": 154920,
+     "remaining": 28822,
+     "odds_printed": 9.37,
+     "odds_live": 8.74
+    }
+   ]
+  },
+  {
+   "game_number": "1683",
+   "identifier": "VIP-Bonus",
+   "name": "VIP Bonus",
+   "price": 1,
+   "overall_odds": 4.65,
+   "top_prize_display": "$500",
+   "on_sale": "2025-12-29",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/6oqRB6PNt5IwB2QcZyGC5Q/9f4d0342c9070427a27117cd79cec884/NH-1683-VIP-BONUS_FINAL.gif",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/5QudMkxgsxUQEKNYnxOBwh/43eb5dec7618358eec3c3938aae559e5/NH_1683_VIP_BONUS_WEB_FINAL.png",
+   "page_url": "https://www.nhlottery.com/game/VIP-Bonus",
+   "tickets_printed": 1002000,
+   "tickets_remaining": 398108,
+   "percent_unsold": 39.73,
+   "prize_money_printed": 621870,
+   "prize_money_unclaimed": 232229,
+   "ev_printed": 0.6206,
+   "ev_now": 0.5833,
+   "prizes": [
+    {
+     "prize": 500,
+     "total": 5,
+     "remaining": 1,
+     "odds_printed": 200400.0,
+     "odds_live": 398108.0
+    },
+    {
+     "prize": 100,
+     "total": 309,
+     "remaining": 104,
+     "odds_printed": 3242.72,
+     "odds_live": 3827.96
+    },
+    {
+     "prize": 50,
+     "total": 1641,
+     "remaining": 530,
+     "odds_printed": 610.6,
+     "odds_live": 751.15
+    },
+    {
+     "prize": 20,
+     "total": 2943,
+     "remaining": 1063,
+     "odds_printed": 340.47,
+     "odds_live": 374.51
+    },
+    {
+     "prize": 10,
+     "total": 10055,
+     "remaining": 3745,
+     "odds_printed": 99.65,
+     "odds_live": 106.3
+    },
+    {
+     "prize": 5,
+     "total": 16665,
+     "remaining": 6154,
+     "odds_printed": 60.13,
+     "odds_live": 64.69
+    },
+    {
+     "prize": 2,
+     "total": 80050,
+     "remaining": 31423,
+     "odds_printed": 12.52,
+     "odds_live": 12.67
+    },
+    {
+     "prize": 1,
+     "total": 103585,
+     "remaining": 42503,
+     "odds_printed": 9.67,
+     "odds_live": 9.37
+    }
+   ]
+  },
+  {
+   "game_number": "1618",
+   "identifier": "wham",
+   "name": "Wham!",
+   "price": 1,
+   "overall_odds": 4.72,
+   "top_prize_display": "$250",
+   "on_sale": "2025-09-29",
+   "sales_end": null,
+   "image_url": "https://images.ctfassets.net/1h4s33nxm7rw/4oVbDaCOsWiAp2RFmGjtE7/b9dd4cfc8d37f7844865165630cfd0de/NH-1618_WHAM__Final.jpg",
+   "thumb_url": "https://images.ctfassets.net/1h4s33nxm7rw/2yMEqz40gSu60SYYGxEODb/021c239387c2ff4ea71b585330fd1fe8/NH-1618_WEB_FINAL.jpg",
+   "page_url": "https://www.nhlottery.com/game/wham",
+   "tickets_printed": 1450200,
+   "tickets_remaining": 846223,
+   "percent_unsold": 58.35,
+   "prize_money_printed": 899319,
+   "prize_money_unclaimed": 509635,
+   "ev_printed": 0.6201,
+   "ev_now": 0.6022,
+   "prizes": [
+    {
+     "prize": 250,
+     "total": 48,
+     "remaining": 23,
+     "odds_printed": 30212.5,
+     "odds_live": 36792.3
+    },
+    {
+     "prize": 100,
+     "total": 358,
+     "remaining": 192,
+     "odds_printed": 4050.84,
+     "odds_live": 4407.41
+    },
+    {
+     "prize": 50,
+     "total": 2121,
+     "remaining": 1146,
+     "odds_printed": 683.73,
+     "odds_live": 738.41
+    },
+    {
+     "prize": 20,
+     "total": 2915,
+     "remaining": 1593,
+     "odds_printed": 497.5,
+     "odds_live": 531.21
+    },
+    {
+     "prize": 15,
+     "total": 1983,
+     "remaining": 1099,
+     "odds_printed": 731.32,
+     "odds_live": 769.99
+    },
+    {
+     "prize": 10,
+     "total": 9668,
+     "remaining": 5404,
+     "odds_printed": 150.0,
+     "odds_live": 156.59
+    },
+    {
+     "prize": 5,
+     "total": 38654,
+     "remaining": 21979,
+     "odds_printed": 37.52,
+     "odds_live": 38.5
+    },
+    {
+     "prize": 3,
+     "total": 14515,
+     "remaining": 8338,
+     "odds_printed": 99.91,
+     "odds_live": 101.49
+    },
+    {
+     "prize": 2,
+     "total": 87056,
+     "remaining": 50645,
+     "odds_printed": 16.66,
+     "odds_live": 16.71
+    },
+    {
+     "prize": 1,
+     "total": 149817,
+     "remaining": 88801,
+     "odds_printed": 9.68,
+     "odds_live": 9.53
+    }
+   ]
+  }
+ ]
+}
