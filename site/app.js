@@ -20,7 +20,7 @@ const S = {
   explorer: "profit",
   spend: {},          // per-game amount typed into "If I spend…"
   calc: { id: null, mode: "budget", amount: 100, tickets: 10 },
-  sim: { id: null, seed: 2026, runs: [], last: null },
+  sim: { id: null, seed: null, runs: [], last: null },
   habit: { id: null, per: 1, period: "week", years: 5 },
 };
 
@@ -1305,7 +1305,22 @@ function gameOptions(sel) {
     .join("");
 }
 
-function renderCalculator() {
+/* A fresh random seed for each simulation session; shown on the page so a sequence can be replayed with ?seed=. */
+function newSeed() {
+  try {
+    return (crypto.getRandomValues(new Uint32Array(1))[0] % 999999) + 1;
+  } catch {
+    return Math.floor(Math.random() * 999999) + 1;
+  }
+}
+
+function renderCalculator(_m, q) {
+  const askedSeed = parseInt(q && q.get("seed"), 10);
+  if (askedSeed > 0) {
+    S.sim.seed = askedSeed;
+    S.sim.runs = [];
+  }
+  S.sim.seed ||= newSeed();
   setTitle("Spending calculator");
   const ex = exampleGame();
   S.calc.id ||= ex.id;
@@ -1421,17 +1436,17 @@ function renderCalculator() {
       grid +
       `<h3>This run</h3><div class="result-grid">${card(money0(20 * g.price), "spent")}${card(money0(last.back), "returned")}${card((last.back - 20 * g.price >= 0 ? "+" : "") + money0(last.back - 20 * g.price), "net")}</div>` +
       `<h3 style="margin-top:18px">After ${runs.length} run${runs.length > 1 ? "s" : ""} (${commas(runs.length * 20)} tickets)</h3><div class="result-grid">${card(money0(spent), "total spent")}${card(money0(back), "total returned")}${card((back - spent >= 0 ? "+" : "") + money0(back - spent), "net")}${card(money0(spent * (1 - g.m.ev_ratio)), "expected loss for this many tickets")}</div>` +
-      `<p class="small" style="margin-top:8px">Simulated with seed ${S.sim.seed}, run ${runs.length}; the same seed always produces the same tickets.</p>`;
+      `<p class="small" style="margin-top:8px">Simulation seed ${S.sim.seed}, run ${runs.length}. “Start over” picks a new seed; to replay this exact sequence, open <a href="#/calculator?s=sim&amp;seed=${S.sim.seed}">this link</a>.</p>`;
   };
-  $("#sg").addEventListener("change", (e) => { S.sim.id = e.target.value; S.sim.runs = []; drawSim(); });
+  $("#sg").addEventListener("change", (e) => { S.sim.id = e.target.value; S.sim.runs = []; S.sim.seed = newSeed(); drawSim(); });
   $("#s-go").addEventListener("click", () => {
     const g = S.byId.get(S.sim.id);
-    const draw = Calc.sampler(g.dist, Calc.rng(S.sim.seed * 1000 + S.sim.runs.length));
+    const draw = Calc.sampler(g.dist, Calc.rng((S.sim.seed ^ Math.imul(S.sim.runs.length + 1, 0x9e3779b9)) >>> 0));
     const tickets = Array.from({ length: 20 }, draw);
     S.sim.runs.push({ tickets, back: tickets.reduce((a, b) => a + b, 0) });
     drawSim();
   });
-  $("#s-reset").addEventListener("click", () => { S.sim.runs = []; drawSim(); });
+  $("#s-reset").addEventListener("click", () => { S.sim.runs = []; S.sim.seed = newSeed(); drawSim(); });
   drawSim();
 }
 
