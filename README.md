@@ -1,12 +1,13 @@
 # NH Scratch Ticket Odds
 
-A small, self-updating static site with the **live odds of every prize** on New Hampshire
-Lottery scratch tickets, and the odds of clearing $100, $500 and $1,000. It's rebuilt every
-day from the lottery's own prizes-remaining data.
+A small, self-updating static site that answers one question for every New Hampshire
+Lottery scratch game: **if I buy this ticket, what is actually likely to happen to my money?**
+It's rebuilt every day from the lottery's own prizes-remaining data.
 
-The lottery prints the odds of winning *anything*, and most of those wins are the ticket
-price or less. This site uses the lottery's counts of prizes printed and still unclaimed to
-estimate what a ticket bought today is actually likely to pay out.
+The lottery prints the odds of winning *anything*, and many of those "wins" only pay back the
+ticket price. This site splits every ticket into **lose money / break even / make money**,
+and reports expected payout, expected loss per $100, how typical and average payouts differ,
+and how each game has changed since launch.
 
 ## Data sources
 
@@ -28,31 +29,37 @@ environment variable.
 ```
 share unsold      = Σ prizes unclaimed ÷ Σ prizes printed
 tickets remaining = tickets ordered × share unsold
-live odds (level) = tickets remaining ÷ that prize still unclaimed
-P(win ≥ $X)       = Σ over levels ≥ X of unclaimed ÷ tickets remaining
-return per $1     = Σ(prize × unclaimed) ÷ (tickets remaining × price)   (printed version uses totals)
+P(prize j)        = unclaimed at j ÷ tickets remaining
+P(lose / break even / profit) = Σ P(j) for prizes below / equal to / above the ticket price
+P(k× or more)     = Σ P(j) for prizes ≥ k × price          (k = 2, 5, 10)
+expected payout   = Σ prize × P(j);   loss per $100 = 100 × (1 − payout ÷ price)
 ```
 
-The site has three views:
+plus median, most likely and percentile payouts, the split of expected payout by prize
+size, an estimate-quality signal, and the same figures "as printed" for comparison. The
+formulas live in `scraper/metrics.py`; the Methods page on the site explains them.
 
-- **Table 1.** A sortable table of every game with live $100+/$500+/$1,000+ odds and the
-  average spend per win. Click a row to see the full prize ladder.
-- **Figures.** Live odds by threshold, return per dollar (printed vs. now), where the prize
-  money goes, and what it would take to expect one top prize.
-- **Methods.** The formulas above, limitations, and download links.
+Pages (hash routes, so it stays a plain static deploy): `#/` comparison dashboard,
+`#/game/<number>` single game, `#/compare?g=a,b,c`, `#/calculator` (budget, habit and
+20-ticket simulation), `#/learn`, `#/methods`.
 
 ## Layout
 
 ```
 scraper/
   scrape.py            fetch + compute -> site/data.json, site/data/prizes.csv
+  metrics.py           buyer-outcome statistics, estimate quality, validation flags
   record_snapshot.py   daily copy -> data/history/YYYY-MM-DD.csv
+  build_history.py     data/history/*.csv -> site/data/history.json (+ history checks)
   stamp_assets.py      cache-busts CSS/JS URLs at deploy time
 site/                  the static site (no build step)
-  index.html  styles.css  app.js
+  index.html  styles.css  calc.js (pure math)  app.js (pages)
   data.json            generated; committed so the site works before the first CI run
+tests/
+  test_metrics.py      formulas + checks on the published data   (python -m unittest discover -s tests)
+  calc.test.mjs        session maths, simulation, number wording   (node --test tests/calc.test.mjs)
 .github/workflows/
-  update.yml           daily scrape + deploy to GitHub Pages
+  update.yml           daily scrape + history + tests + deploy to GitHub Pages
 ```
 
 ## Run locally
@@ -61,6 +68,7 @@ site/                  the static site (no build step)
 python3 -m venv .venv
 ./.venv/bin/pip install -r scraper/requirements.txt
 ./.venv/bin/python scraper/scrape.py            # refresh site/data.json
+./.venv/bin/python scraper/build_history.py     # refresh site/data/history.json
 python3 -m http.server -d site 8765             # open http://localhost:8765
 ```
 
