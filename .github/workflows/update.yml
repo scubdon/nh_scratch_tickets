@@ -58,6 +58,14 @@ jobs:
           git commit -m "Record prize snapshot $(TZ=America/New_York date +%Y-%m-%d) [skip ci]"
           git push
 
+      - name: Build history time series
+        run: python scraper/build_history.py
+
+      - name: Test calculations and data
+        run: |
+          python -m unittest discover -s tests -v
+          node --test tests/calc.test.mjs
+
       - name: Cache-bust CSS/JS
         run: python scraper/stamp_assets.py
 

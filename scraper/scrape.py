@@ -18,7 +18,8 @@ The game-data service wants the X-API-Key header that nhlottery.com ships in its
 public JavaScript bundle. We read it out of the bundle on each run (so a rotated key
 is picked up automatically) and fall back to the last known value.
 
-What we derive per game (see the Methods tab on the site):
+What we derive per game (see the Methods page on the site; buyer-outcome statistics
+such as the chance of breaking even or making a profit live in metrics.py):
 
     tickets_printed   = tickets ordered, as published (fallback: overall odds x prizes printed)
     percent_unsold    = 100 x (sum of prizes unclaimed) / (sum of prizes printed)
@@ -51,6 +52,9 @@ from collections import defaultdict
 from zoneinfo import ZoneInfo
 
 import requests
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from metrics import estimate_quality, outcome_metrics, validate_game  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = os.path.join(ROOT, "site")
@@ -282,10 +286,20 @@ def build(raw: dict) -> dict:
                 "prizes": prizes,
             }
         )
+        game = games[-1]
+        game["metrics"] = {
+            "live": outcome_metrics(price, [(t["prize"], t["remaining"]) for t in tiers], tickets_remaining),
+            "printed": outcome_metrics(price, [(t["prize"], t["total"]) for t in tiers], tickets_printed),
+        }
+        game["estimate"] = estimate_quality([(t["prize"], t["total"], t["remaining"]) for t in tiers])
+        game["flags"] = validate_game(game)
 
     games.sort(key=lambda x: (-x["price"], x["name"].lower()))
     for s in skipped:
         log(f"  - skipped {s}")
+    for g in games:
+        for f in g["flags"]:
+            log(f"  ! {g['name']} ({g['game_number']}): {f}")
 
     return {
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
