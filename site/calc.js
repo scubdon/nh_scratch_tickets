@@ -76,6 +76,28 @@
     return base;
   }
 
+  /* ---------------- big wins ----------------
+     Ticket spending per win of a given size: the price divided by the chance one ticket
+     pays that much. Buying 1/p tickets yields one such win on average — roughly a 2-in-3
+     chance of at least one, not a certainty. null when no such prize is left. */
+  function costPerWin(price, p) {
+    return p > 0 && price > 0 ? price / p : null;
+  }
+
+  /* How long a dollar amount lasts at a steady weekly spend: "6 weeks", "7 months",
+     "3.4 years", "766 years". */
+  function habitSpan(amount, perWeek) {
+    if (amount == null || !isFinite(amount) || !(perWeek > 0)) return "—";
+    const weeks = amount / perWeek;
+    const plural = (k, unit) => `${k} ${unit}${k === "1" ? "" : "s"}`;
+    if (weeks < 9) return plural(String(Math.max(1, Math.round(weeks))), "week");
+    const months = (weeks * 12) / 52;
+    if (months < 24) return plural(String(Math.round(months)), "month");
+    const years = weeks / 52;
+    if (years < 10) return plural(trimZeros(years.toFixed(1)), "year");
+    return plural(commas(years), "year");
+  }
+
   /* ---------------- one-ticket distribution ---------------- */
 
   /* [{amount, p}] for a single ticket bought now, $0 included, smallest amount first. */
@@ -199,7 +221,7 @@
     };
   }
 
-  const api = { pct, oneIn, per100, freq, countOf, shares100, commas, payoutDistribution, sessionStats, rng, sampler, habit };
+  const api = { pct, oneIn, per100, freq, countOf, shares100, commas, costPerWin, habitSpan, payoutDistribution, sessionStats, rng, sampler, habit };
   if (typeof module !== "undefined" && module.exports) module.exports = api;
   else root.Calc = api;
 })(typeof window !== "undefined" ? window : globalThis);

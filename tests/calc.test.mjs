@@ -89,3 +89,14 @@ test("habit arithmetic", () => {
   assert.equal(h.spend_total, 5200);
   assert.equal(h.loss_total, 1300);
 });
+
+test("big-win spending and how long it lasts", () => {
+  close(Calc.costPerWin(30, 1 / 22), 660);
+  assert.equal(Calc.costPerWin(30, 0), null);
+  assert.equal(Calc.costPerWin(30, null), null);
+  assert.equal(Calc.habitSpan(20, 20), "1 week");
+  assert.equal(Calc.habitSpan(120, 20), "6 weeks");
+  assert.equal(Calc.habitSpan(655, 20), "8 months");
+  assert.equal(Calc.habitSpan(3536, 20), "3.4 years");
+  assert.equal(Calc.habitSpan(796535, 20), "766 years");
+});

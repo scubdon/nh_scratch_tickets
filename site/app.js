@@ -5,7 +5,7 @@
      #/  #/game  #/game/1692  #/compare?g=1692,1658  #/calculator  #/learn  #/methods */
 "use strict";
 
-const { pct, oneIn, per100, freq, shares100, commas } = Calc;
+const { pct, oneIn, per100, freq, shares100, commas, costPerWin, habitSpan } = Calc;
 
 const S = {
   data: null,
@@ -14,7 +14,7 @@ const S = {
   history: null,
   historyPromise: null,
   lastPath: null,
-  home: { price: "all", search: "", top: "all", stage: "all", profit: "all", loss: "all", sort: "loss", dir: 1, view: "rel" },
+  home: { price: "all", search: "", top: "all", stage: "all", profit: "all", loss: "all", sort: "loss", dir: 1, view: "rel", bw: "100" },
   picker: { search: "", price: "all" },
   compare: loadCompare(),
   explorer: "profit",
@@ -140,6 +140,31 @@ function freshness() {
     (days >= 2 ? `<p class="notice">Latest available NH Lottery data is ${days} days old.</p>` : "")
   );
 }
+
+/* ---------------- big wins ----------------
+   The prizes people actually buy tickets hoping for, and the ticket spending it takes,
+   on average, to see one. Time is framed against a steady $20-a-week habit. */
+const BIG = [
+  { k: "100", label: "$100 or more", short: "$100+", cls: "bw1" },
+  { k: "500", label: "$500 or more", short: "$500+", cls: "bw2" },
+  { k: "1000", label: "$1,000 or more", short: "$1,000+", cls: "bw3" },
+];
+const WEEKLY = 20;
+const bigDef = (k) => BIG.find((b) => b.k === k) || BIG[0];
+/* state: "ok", "gone" (every prize that size claimed) or "na" (the game never had one) */
+function bigWin(g, k) {
+  const p = g.m.p_at_least[k];
+  const cost = costPerWin(g.price, p);
+  return { p, cost, loss: cost == null ? null : cost * (1 - g.m.ev_ratio), state: p == null ? "na" : p === 0 ? "gone" : "ok" };
+}
+const bwKey = (b) => `<i class="bwk ${b.cls}" aria-hidden="true"></i>`;
+const bigMissing = (w, b) => (w.state === "gone" ? `all ${b.short} prizes claimed` : `no ${b.short} prize`);
+/* Games with a prize of this size left, least spending per win first. */
+const bigRanked = (k, games = S.games) =>
+  games.filter((g) => bigWin(g, k).state === "ok").sort((a, b) => bigWin(a, k).cost - bigWin(b, k).cost);
+const ordinal = (n) => n + (n % 100 >= 11 && n % 100 <= 13 ? "th" : ["th", "st", "nd", "rd"][n % 10] || "th");
+const BIG_AVG_NOTE =
+  "These are averages, not prices: buying that many tickets gives roughly a 2-in-3 chance of at least one such prize, and a 1-in-3 chance of none.";
 
 /* ---------------- tooltip ---------------- */
 const tip = $("#tip");
@@ -443,6 +468,15 @@ function renderHome() {
     `</div><div class="eg callout">${introExample(ex)}</div></section>` +
     freshness() +
     `<section aria-label="Find games">${controlsHtml()}</section>` +
+    `<section class="block" aria-labelledby="bw-h"><h2 id="bw-h">What it takes to win $100, $500 or $1,000</h2>` +
+    `<p class="lede">These are the prizes most people are hoping for when they buy a ticket. Each figure is how much is spent on tickets, on average, for every one prize of that size or larger: the ticket price divided by the chance a ticket pays that much.</p>` +
+    bigTiles() +
+    `<div class="bw-bar"><span class="ctl-label" id="bw-k-l">Rank games by the spending per</span><div class="seg" id="bw-k" role="group" aria-labelledby="bw-k-l">` +
+    BIG.map((b) => `<button type="button" data-k="${b.k}" aria-pressed="${S.home.bw === b.k}">${bwKey(b)}${b.short} win</button>`).join("") +
+    `</div></div>` +
+    `<p class="small" style="margin:8px 0 0">Each row is a game. Dots further right mean more money spent on tickets per win. The scale grows tenfold at each gridline; the top axis shows how long that spending takes at $${WEEKLY} a week. Tap or hover a row for details.</p>` +
+    `<div class="chart" id="bw-chart" data-redraw></div><p class="sr-only" id="bw-sum"></p>` +
+    `<p class="note">${BIG_AVG_NOTE} The other prizes collected along the way do not make up the difference: counting every prize, buyers still lose the game's expected loss per $100 on all of that spending.</p></section>` +
     `<section class="block" aria-labelledby="o-h"><h2 id="o-h">What happens to a single ticket?</h2>` +
     `<p class="lede">Each bar is one game, divided into what happens to 100 tickets bought today. The gray part of every bar is tickets that lose money or only break even.</p>` +
     legendHtml() + `<ol class="orows" id="orows" style="margin-top:12px"></ol></section>` +
@@ -503,7 +537,15 @@ function wireHome() {
     $$("#t-view button").forEach((x) => x.setAttribute("aria-pressed", x === b));
     drawTable(visibleGames());
   });
+  $("#bw-k").addEventListener("click", (e) => {
+    const b = e.target.closest("button");
+    if (!b) return;
+    h.bw = b.dataset.k;
+    $$("#bw-k button").forEach((x) => x.setAttribute("aria-pressed", x === b));
+    drawBigWins(visibleGames());
+  });
   $("#scatter")._redraw = () => drawScatter(visibleGames());
+  $("#bw-chart")._redraw = () => drawBigWins(visibleGames());
 }
 
 function drawHome() {
@@ -518,6 +560,7 @@ function drawHome() {
     sortSel.value = h.sort;
   }
   const empty = `<li class="status">No games match these filters.</li>`;
+  drawBigWins(rows);
   $("#orows").innerHTML = rows.length ? rows.map(orowHtml).join("") : empty;
   drawTable(rows);
   $("#mrows").innerHTML = rows.length ? rows.map(mrowHtml).join("") : empty;
@@ -690,6 +733,136 @@ function drawScatter(rows) {
     `Expected loss per $100 ranges from ${money2(fl(lo(fl)))} (${lo(fl).name}) to ${money2(fl(hi(fl)))} (${hi(fl).name}).`;
 }
 
+/* ---------------- big wins: headline tiles and ranked dot plot ---------------- */
+function bigTiles() {
+  const link = (g) => `<a href="#/game/${esc(g.id)}">${esc(g.name)}</a> ($${g.price})`;
+  return (
+    `<div class="bw-tiles">` +
+    BIG.map((b) => {
+      const ranked = bigRanked(b.k);
+      if (!ranked.length) return "";
+      const mid = median(ranked.map((g) => bigWin(g, b.k).cost));
+      const lo = ranked[0], hi = ranked[ranked.length - 1];
+      return (
+        `<div><span class="h">${bwKey(b)}A prize of ${b.label}</span>` +
+        `<span class="v">${money0(mid)}</span>` +
+        `<span class="t">in tickets per win, at the typical game</span>` +
+        `<span class="d">about ${habitSpan(mid, WEEKLY)} at $${WEEKLY} a week</span>` +
+        `<span class="s">Least: ${money0(bigWin(lo, b.k).cost)}, ${link(lo)}<br>Most: ${money0(bigWin(hi, b.k).cost)}, ${link(hi)}<br>${ranked.length} of ${S.games.length} games have one left</span>` +
+        `</div>`
+      );
+    }).join("") +
+    `</div>`
+  );
+}
+
+function bigTipHtml(g) {
+  const lines = BIG.map((b) => {
+    const w = bigWin(g, b.k);
+    if (w.state !== "ok") return `${b.short}: <span style="opacity:.75">${bigMissing(w, b)}</span>`;
+    return `${b.short}: <strong>${money0(w.cost)}</strong> of tickets per win<br><span style="opacity:.75">${oneIn(w.p)} tickets · about ${habitSpan(w.cost, WEEKLY)} at $${WEEKLY}/week</span>`;
+  });
+  return `<strong>${esc(g.name)}</strong> · $${g.price}<br>${lines.join("<br>")}<br><span style="opacity:.75">Click or tap again to open</span>`;
+}
+
+function drawBigWins(rows) {
+  const host = $("#bw-chart");
+  if (!host) return;
+  host.replaceChildren();
+  if (!rows.length) {
+    host.innerHTML = `<p class="status">No games match these filters.</p>`;
+    return;
+  }
+  const key = S.home.bw, sel = bigDef(key);
+  const order = { ok: 0, gone: 1, na: 2 };
+  rows = [...rows].sort((a, b) => {
+    const x = bigWin(a, key), y = bigWin(b, key);
+    return order[x.state] - order[y.state] || (x.cost ?? 0) - (y.cost ?? 0) || a.name.localeCompare(b.name);
+  });
+
+  const W = Math.max(300, host.clientWidth);
+  const narrow = W < 620;
+  const labelW = narrow ? 0 : 260;
+  const rowH = narrow ? 38 : 24;
+  const mt = 60, mb = 36;
+  const H = mt + rows.length * rowH + mb;
+  const x0 = labelW + 6, x1 = W - 10;
+  // Log scale fixed by every game and threshold, so filtering doesn't move the axis.
+  const costs = S.games.flatMap((g) => BIG.map((b) => bigWin(g, b.k).cost)).filter((c) => c != null);
+  const L0 = Math.floor(Math.log10(Math.min(...costs))), L1 = Math.ceil(Math.log10(Math.max(...costs)));
+  const X = (v) => x0 + ((Math.log10(v) - L0) / (L1 - L0)) * (x1 - x0);
+  const svg = E("svg", { viewBox: `0 0 ${W} ${H}`, role: "group", "aria-label": `Ticket spending per ${sel.short} win, one row per game, on a logarithmic scale` });
+
+  const decLabel = (v) => (v >= 1e6 ? "$" + v / 1e6 + "M" : v >= 1e4 ? "$" + v / 1e3 + "K" : money0(v));
+  for (let d = L0; d <= L1; d++) {
+    const v = 10 ** d;
+    svg.append(E("line", { class: "grid", x1: X(v), x2: X(v), y1: mt - 6, y2: H - mb }));
+    const anchor = d === L0 ? "start" : d === L1 ? "end" : "middle";
+    svg.append(E("text", { x: X(v), y: H - mb + 16, "text-anchor": anchor }, decLabel(v)));
+    svg.append(E("text", { x: X(v), y: mt - 10, "text-anchor": anchor }, decLabel(v)));
+    if (d < L1) for (const k of [2, 5]) svg.append(E("line", { class: "grid minor", x1: X(k * v), x2: X(k * v), y1: mt - 6, y2: H - mb }));
+  }
+  svg.append(E("text", { class: "lbl", x: x1, y: H - 4, "text-anchor": "end" }, "Ticket spending per win →"));
+
+  // Top axis: the same spending as time at a steady weekly habit.
+  const yearCost = WEEKLY * 52;
+  if (!narrow) {
+    svg.append(E("text", { class: "lbl", x: x0 - 10, y: 14, "text-anchor": "end" }, `Time at $${WEEKLY} a week`));
+    svg.append(E("text", { class: "lbl", x: x0 - 10, y: mt - 10, "text-anchor": "end" }, "Ticket spending per win"));
+  }
+  for (let y = 1; y * yearCost <= 10 ** L1; y *= 10) {
+    const x = X(y * yearCost);
+    if (x < x0) continue;
+    svg.append(E("text", { class: "bw-yr", x, y: 14, "text-anchor": x > x1 - 30 ? "end" : "middle" }, `${commas(y)} yr${y === 1 ? "" : "s"}`));
+    svg.append(E("line", { class: "axis", x1: x, x2: x, y1: 19, y2: 26 }));
+  }
+
+  const maxChars = Math.floor((labelW - 50) / 6.6);
+  const clip = (s, n) => (s.length > n ? s.slice(0, n - 1).trimEnd() + "…" : s);
+  rows.forEach((g, i) => {
+    const top = mt + i * rowH;
+    const cy = narrow ? top + 27 : top + rowH / 2;
+    const ws = BIG.map((b) => ({ b, w: bigWin(g, b.k) }));
+    const ok = ws.filter((x) => x.w.state === "ok");
+    const mine = bigWin(g, key);
+    const row = E("g", {
+      class: "bw-row", tabindex: 0, role: "link",
+      "aria-label": `${g.name}, $${g.price}: ` + ws.map(({ b, w }) => (w.state === "ok" ? `${money0(w.cost)} of tickets per ${b.short} win` : bigMissing(w, b))).join("; "),
+    });
+    row.append(E("rect", { class: "band", x: 0, y: top, width: W, height: rowH }));
+    if (narrow) {
+      row.append(E("text", { class: "lbl", x: 0, y: top + 13 }, `${clip(g.name, Math.floor(W / 7.2))} · $${g.price}`));
+    } else {
+      row.append(E("text", { class: "lbl", x: 0, y: cy + 4 }, clip(g.name, maxChars)));
+      row.append(E("text", { x: labelW - 8, y: cy + 4, "text-anchor": "end" }, "$" + g.price));
+    }
+    if (ok.length > 1) {
+      const xs = ok.map((x) => X(x.w.cost));
+      row.append(E("line", { class: "bw-link", x1: Math.min(...xs), x2: Math.max(...xs), y1: cy, y2: cy }));
+    }
+    // the ranked threshold is drawn last and larger, so it sits on top
+    [...ok].sort((a, b) => (a.b.k === key) - (b.b.k === key)).forEach(({ b, w }) =>
+      row.append(E("circle", { class: `bw-dot ${b.cls}${b.k === key ? " sel" : ""}`, cx: X(w.cost), cy, r: b.k === key ? 5.5 : 4 }))
+    );
+    if (mine.state !== "ok") {
+      const xs = ok.map((x) => X(x.w.cost));
+      const right = xs.length ? Math.max(...xs) + 10 : x0 + 4;
+      const fits = right + 150 < x1;
+      row.append(E("text", { class: "bw-miss", x: fits ? right : Math.min(...xs) - 10, y: cy + 4, "text-anchor": fits ? "start" : "end" }, bigMissing(mine, sel)));
+    }
+    tipOn(row, bigTipHtml(g), `#/game/${g.id}`);
+    svg.append(row);
+  });
+  host.append(svg);
+
+  const ranked = rows.filter((g) => bigWin(g, key).state === "ok");
+  const without = rows.length - ranked.length;
+  $("#bw-sum").textContent = ranked.length
+    ? `Spending per ${sel.short} win ranges from ${money0(bigWin(ranked[0], key).cost)} (${ranked[0].name}) to ${money0(bigWin(ranked[ranked.length - 1], key).cost)} (${ranked[ranked.length - 1].name}).` +
+      (without ? ` ${without} of the games shown have no ${sel.short} prize left.` : "")
+    : `None of the games shown has a ${sel.short} prize left.`;
+}
+
 /* ---------------- automatically generated observations ---------------- */
 function observations() {
   const G = S.games;
@@ -836,6 +1009,10 @@ function renderGame(match) {
     `<div><span class="v">${cents(m.ev_ratio)}</span><span class="t">returned per $1, on average</span></div>` +
     `</div></section>` +
 
+    `<section class="block" aria-labelledby="bwg-h"><h2 id="bwg-h">What it takes to win $100, $500 or $1,000</h2>` +
+    `<p class="lede">How often a $${g.price} ticket bought today pays a prize that size or larger, and how much is spent on tickets, on average, for each one.</p>` +
+    bigWinCards(g) + `</section>` +
+
     `<section class="block" aria-labelledby="typ-h"><h2 id="typ-h">Your most likely result</h2>` +
     `<p class="lede">100 tickets bought today, as they would be expected to turn out.</p>` +
     pictogram(g) +
@@ -913,6 +1090,32 @@ function renderGame(match) {
     $("#g-flags").innerHTML = flagsHtml(g, h ? h.flags : []);
     historyBlock(g, h);
   });
+}
+
+function bigWinCards(g) {
+  const cards = BIG.map((b) => {
+    const w = bigWin(g, b.k);
+    const head = `<span class="h">${bwKey(b)}A prize of ${b.label}</span>`;
+    if (w.state !== "ok") {
+      return (
+        `<div class="off">${head}<span class="v">${w.state === "gone" ? "None left" : "—"}</span>` +
+        `<span class="t">${w.state === "gone" ? `every ${b.short} prize has been claimed` : "this game has no prize that large"}</span></div>`
+      );
+    }
+    const ranked = bigRanked(b.k);
+    const rank = ranked.indexOf(g) + 1;
+    return (
+      `<div>${head}<span class="v">${money0(w.cost)}</span>` +
+      `<span class="t">in tickets per win, on average</span>` +
+      `<ul class="bw-facts">` +
+      `<li><strong>${oneIn(w.p)}</strong> tickets (${pct(w.p)})</li>` +
+      `<li>About <strong>${habitSpan(w.cost, WEEKLY)}</strong> of buying $${WEEKLY} a week</li>` +
+      `<li>Even counting that win and every other prize, about <strong>${money0(w.loss)}</strong> lost over that spending</li>` +
+      `<li>${rank === 1 ? `The least spending per win of the ${ranked.length} games with one left` : `Ranks ${ordinal(rank)} of ${ranked.length} games with one left, from least to most spending per win`}</li>` +
+      `</ul></div>`
+    );
+  });
+  return `<div class="bw-tiles bw-game">${cards.join("")}</div><p class="small" style="margin-top:8px">${BIG_AVG_NOTE} <a href="#/">See how every game compares</a>.</p>`;
 }
 
 function flagsHtml(g, histFlags) {
