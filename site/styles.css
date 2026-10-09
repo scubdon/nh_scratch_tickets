@@ -330,6 +330,41 @@ th[aria-sort="ascending"] .h::after { content: " \2191"; }
 .chart .ann { stroke: var(--o-p3); stroke-dasharray: 2 2; }
 .chart .ann-t { fill: var(--ink-2); }
 
+/* ---------- big wins ($100+ / $500+ / $1,000+) ---------- */
+.bwk { display: inline-block; width: 11px; height: 11px; margin-right: 6px; border-radius: 50%; vertical-align: -1px; flex: none; }
+.bwk.bw1 { background: var(--panel); box-shadow: inset 0 0 0 2px var(--o-p2); }
+.bwk.bw2 { background: var(--o-p2); }
+.bwk.bw3 { background: var(--o-p3); }
+.bw-tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 4px 0 20px; }
+.bw-tiles > div { display: flex; flex-direction: column; padding: 14px 16px; background: var(--panel); border: 1px solid var(--rule); border-radius: 6px; }
+.bw-tiles .h { font-size: 14px; font-weight: 600; color: var(--ink); }
+.bw-tiles .v { margin-top: 8px; font: 600 clamp(26px, 4.4vw, 36px)/1.1 var(--mono); }
+.bw-tiles .t { font-size: 14px; color: var(--ink-2); }
+.bw-tiles .d { margin-top: 2px; font: 13px var(--mono); color: var(--ink-2); }
+.bw-tiles .s { margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--rule-2); font-size: 13px; line-height: 1.5; color: var(--ink-3); }
+.bw-tiles .off .v { color: var(--ink-3); }
+.bw-facts { margin: 10px 0 0; padding: 8px 0 0; border-top: 1px solid var(--rule-2); list-style: none; font-size: 14px; color: var(--ink-2); }
+.bw-facts li { margin: 3px 0; }
+.bw-facts strong { color: var(--ink); font-family: var(--mono); font-weight: 600; }
+@media (max-width: 760px) { .bw-tiles { grid-template-columns: 1fr; } }
+.bw-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; }
+.bw-bar .seg button { display: inline-flex; align-items: center; }
+#bw-chart { margin-top: 6px; }
+.chart .grid.minor { stroke-dasharray: 1 3; }
+.chart .bw-row { cursor: pointer; }
+.chart .bw-row .band { fill: transparent; }
+.chart .bw-row:hover .band, .chart .bw-row:focus .band { fill: var(--row-hover); }
+.chart .bw-row:focus { outline: none; }
+.chart .bw-row:focus-visible .band { stroke: var(--accent); stroke-width: 1.5; }
+.chart .bw-link { stroke: var(--rule); stroke-width: 2; }
+.chart .bw-dot { stroke: var(--panel); stroke-width: 1; }
+.chart .bw-dot.bw1 { fill: var(--panel); stroke: var(--o-p2); stroke-width: 2; }
+.chart .bw-dot.bw2 { fill: var(--o-p2); }
+.chart .bw-dot.bw3 { fill: var(--o-p3); }
+.chart .bw-dot:not(.sel) { opacity: .8; }
+.chart .bw-yr { fill: var(--ink-2); }
+.chart .bw-miss { font: italic 12px var(--sans); fill: var(--ink-3); }
+
 .tip {
   position: fixed; z-index: 30; max-width: 280px;
   padding: 8px 10px; border-radius: 4px;
